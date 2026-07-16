@@ -1,0 +1,599 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Go to the Obsidian Community home page" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]:
+          - img [ref=e8]
+          - img [ref=e14]
+      - generic [ref=e24]:
+        - img [ref=e25]
+        - generic [ref=e28]:
+          - generic:
+            - generic: Search plugins and themes...
+          - combobox [ref=e29]
+        - generic [ref=e30]: Ctrl K
+      - link "Sign in" [ref=e32] [cursor=pointer]:
+        - /url: /auth/login?returnTo=%2Fplugins%2Frealclaudian
+  - main [ref=e33]:
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - img [ref=e39]
+        - generic [ref=e42]:
+          - heading "Claudian" [level=1] [ref=e43]:
+            - generic [ref=e44]: Claudian
+          - generic [ref=e45]:
+            - link "Yishen Tu Yishen Tu" [ref=e46] [cursor=pointer]:
+              - /url: /users/yishentu
+              - img "Yishen Tu" [ref=e48]
+              - generic [ref=e49]: Yishen Tu
+            - generic [ref=e50]:
+              - img [ref=e51]
+              - text: 1.4M downloads
+      - paragraph [ref=e56]: Embeds Claude Code/Codex and other local Agents as AI collaborators in your vault.
+      - generic [ref=e57]:
+        - link "Add to Obsidian" [ref=e58] [cursor=pointer]:
+          - /url: obsidian://show-plugin?id=realclaudian
+        - button "More actions" [ref=e60] [cursor=pointer]:
+          - img [ref=e61]
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - list [ref=e70]:
+          - listitem [ref=e72] [cursor=pointer]: Overview
+          - listitem [ref=e73] [cursor=pointer]: Scorecard
+          - listitem [ref=e74] [cursor=pointer]:
+            - text: Updates
+            - generic [ref=e75]: "51"
+        - generic [ref=e79]:
+          - generic [ref=e82]:
+            - paragraph
+            - paragraph [ref=e83]:
+              - img "Preview" [ref=e84]
+            - paragraph [ref=e85]: An Obsidian plugin that embeds AI coding agents (Claude Code, Codex, Opencode, Pi, and more to come) in your vault. Your vault becomes the agent's working directory — file read/write, search, bash, and multi-step workflows all work out of the box.
+            - heading "Features & Usage" [level=2] [ref=e86]
+            - paragraph [ref=e87]: Open the chat sidebar from the ribbon icon or command palette. Select text and use the hotkey for inline edit. Everything works like your familiar coding agent, Claude Code, Codex, Opencode, and Pi — talk to the agent, and it reads, writes, edits, and searches files in your vault.
+            - paragraph [ref=e88]:
+              - strong [ref=e89]: Inline Edit
+              - text: — Select text or start at the cursor position + hotkey to edit directly in notes with word-level diff preview.
+            - paragraph [ref=e90]:
+              - strong [ref=e91]: Slash Commands & Skills
+              - text: — Type
+              - code [ref=e92]: /
+              - text: or
+              - code [ref=e93]: $
+              - text: for reusable prompt templates or Skills from user- and vault-level scopes.
+            - paragraph [ref=e94]:
+              - strong [ref=e95]:
+                - code [ref=e96]: "@mention"
+              - text: "- Type"
+              - code [ref=e97]: "@"
+              - text: to mention anything you want the agent to work with, vault files, subagents, MCP servers, or files in external directories.
+            - paragraph [ref=e98]:
+              - strong [ref=e99]: Plan Mode
+              - text: — Toggle via
+              - code [ref=e100]: Shift+Tab
+              - text: . The agent explores and designs before implementing, then presents a plan for approval.
+            - paragraph [ref=e101]:
+              - strong [ref=e102]:
+                - text: Instruction Mode (
+                - code [ref=e103]: "#"
+                - text: )
+              - text: — Refined custom instructions added from the chat input.
+            - paragraph [ref=e104]:
+              - strong [ref=e105]: MCP Servers
+              - text: — Connect external tools via Model Context Protocol (stdio, SSE, HTTP). Claude manages vault MCP in-app; Codex uses its own CLI-managed MCP configuration.
+            - paragraph [ref=e106]:
+              - strong [ref=e107]: Multi-Tab & Conversations
+              - text: — Multiple chat tabs, conversation history, fork, resume, and compact.
+            - heading "Requirements" [level=2] [ref=e108]
+            - list [ref=e109]:
+              - listitem [ref=e110]:
+                - strong [ref=e111]: Claude provider
+                - text: ":"
+                - link "Claude Code CLI" [ref=e112] [cursor=pointer]:
+                  - /url: https://code.claude.com/docs/en/overview
+                - text: installed (native install recommended). Claude subscription/API or compatible provider (
+                - link "Openrouter" [ref=e113] [cursor=pointer]:
+                  - /url: https://openrouter.ai/docs/guides/guides/claude-code-integration
+                - text: ","
+                - link "Kimi" [ref=e114] [cursor=pointer]:
+                  - /url: https://platform.kimi.ai/docs/guide/claude-code-kimi
+                - text: ","
+                - link "GLM" [ref=e115] [cursor=pointer]:
+                  - /url: https://docs.z.ai/devpack/tool/claude
+                - text: etc.).
+              - listitem [ref=e116]:
+                - strong [ref=e117]: Optional providers
+                - text: ":"
+                - link "Codex CLI" [ref=e118] [cursor=pointer]:
+                  - /url: https://github.com/openai/codex
+                - text: ","
+                - link "Opencode" [ref=e119] [cursor=pointer]:
+                  - /url: https://opencode.ai/
+                - text: ","
+                - link "Pi" [ref=e120] [cursor=pointer]:
+                  - /url: https://github.com/earendil-works/pi
+                - text: .
+              - listitem [ref=e121]: Obsidian v1.7.2+
+              - listitem [ref=e122]: Desktop only (macOS, Linux, Windows)
+            - heading "Installation" [level=2] [ref=e123]
+            - heading "From Obsidian Community Plugins (recommended)" [level=3] [ref=e124]
+            - list [ref=e125]:
+              - listitem [ref=e126]: Open Obsidian → Settings → Community plugins → Browse
+              - listitem [ref=e127]: Search for "Claudian" and click Install
+              - listitem [ref=e128]: Enable the plugin
+            - paragraph [ref=e129]:
+              - text: Or install directly from the
+              - link "community plugin page" [ref=e130] [cursor=pointer]:
+                - /url: https://community.obsidian.md/plugins/realclaudian
+              - text: .
+            - heading "From GitHub Release" [level=3] [ref=e131]
+            - list [ref=e132]:
+              - listitem [ref=e133]:
+                - text: Download
+                - code [ref=e134]: main.js
+                - text: ","
+                - code [ref=e135]: manifest.json
+                - text: ", and"
+                - code [ref=e136]: styles.css
+                - text: from the
+                - link "latest release" [ref=e137] [cursor=pointer]:
+                  - /url: https://github.com/YishenTu/claudian/releases/latest
+              - listitem [ref=e138]:
+                - text: Create a folder called
+                - code [ref=e139]: claudian
+                - text: "in your vault's plugins folder:"
+                - code [ref=e141]: /path/to/vault/.obsidian/plugins/claudian/
+              - listitem [ref=e142]:
+                - text: Copy the downloaded files into the
+                - code [ref=e143]: claudian
+                - text: folder
+              - listitem [ref=e144]:
+                - text: "Enable the plugin in Obsidian:"
+                - list [ref=e145]:
+                  - listitem [ref=e146]: Settings → Community plugins → Enable "Claudian"
+            - heading "From source (development)" [level=3] [ref=e147]
+            - list [ref=e148]:
+              - listitem [ref=e149]:
+                - paragraph [ref=e150]: "Clone this repository into your vault's plugins folder:"
+                - code [ref=e152]: cd /path/to/vault/.obsidian/plugins git clone https://github.com/YishenTu/claudian.git cd claudian
+              - listitem [ref=e153]:
+                - paragraph [ref=e154]: "Install dependencies and build:"
+                - code [ref=e156]: npm install npm run build
+              - listitem [ref=e157]:
+                - paragraph [ref=e158]: "Enable the plugin in Obsidian:"
+                - list [ref=e159]:
+                  - listitem [ref=e160]: Settings → Community plugins → Enable "Claudian"
+            - heading "Development" [level=3] [ref=e161]
+            - code [ref=e163]: "# Watch mode npm run dev # Production build npm run build"
+            - heading "Privacy & Data Use" [level=2] [ref=e164]
+            - list [ref=e165]:
+              - listitem [ref=e166]:
+                - strong [ref=e167]: Sent to API
+                - text: ": Your input, attached files, images, and tool call outputs. Default: Anthropic (Claude), OpenAI (Codex), or the provider configured in Opencode/Pi; configurable via provider settings and environment variables."
+              - listitem [ref=e168]:
+                - strong [ref=e169]: Local storage
+                - text: ": Claudian settings and session metadata in"
+                - code [ref=e170]: vault/.claudian/
+                - text: ; Claude provider files in
+                - code [ref=e171]: vault/.claude/
+                - text: ; transcripts in
+                - code [ref=e172]: ~/.claude/projects/
+                - text: (Claude),
+                - code [ref=e173]: ~/.codex/sessions/
+                - text: (Codex), and
+                - code [ref=e174]: .pi/agent/sessions/
+                - text: or
+                - code [ref=e175]: ~/.pi/agent/sessions/
+                - text: (Pi).
+              - listitem [ref=e176]:
+                - strong [ref=e177]: Environment variables
+                - text: ": Provider subprocesses inherit the Obsidian process environment plus any variables you configure in Claudian. This is needed for CLI authentication, proxies, certificates, and PATH resolution."
+              - listitem [ref=e178]:
+                - strong [ref=e179]: Device-specific paths
+                - text: ": Per-device CLI paths use an opaque local key stored in browser local storage, not your system hostname."
+              - listitem [ref=e180]:
+                - strong [ref=e181]: Background activity
+                - text: ": Claudian does not run telemetry beacons. UI polling timers read local Obsidian/editor selection state only. Network activity is limited to explicit provider runtime work, configured MCP endpoints, and provider SDK/CLI calls needed to answer your requests."
+            - heading "Troubleshooting" [level=2] [ref=e182]
+            - heading "Claude CLI not found" [level=3] [ref=e183]
+            - paragraph [ref=e184]:
+              - text: If you encounter
+              - code [ref=e185]: spawn claude ENOENT
+              - text: or
+              - code [ref=e186]: Claude CLI not found
+              - text: ", the plugin can't auto-detect your Claude installation. Common with Node version managers (nvm, fnm, volta)."
+            - paragraph [ref=e187]:
+              - strong [ref=e188]: Solution
+              - text: ": Leave the setting empty first so Claudian can auto-detect Claude Code. If auto-detection fails, find your CLI path and set it in Settings → Advanced → Claude CLI path."
+            - table [ref=e189]:
+              - rowgroup [ref=e190]:
+                - row "Platform Command Example Path" [ref=e191]:
+                  - columnheader "Platform" [ref=e192]
+                  - columnheader "Command" [ref=e193]
+                  - columnheader "Example Path" [ref=e194]
+              - rowgroup [ref=e195]:
+                - row "macOS/Linux which claude /Users/you/.volta/bin/claude" [ref=e196]:
+                  - cell "macOS/Linux" [ref=e197]
+                  - cell "which claude" [ref=e198]:
+                    - code [ref=e199]: which claude
+                  - cell "/Users/you/.volta/bin/claude" [ref=e200]:
+                    - code [ref=e201]: /Users/you/.volta/bin/claude
+                - row "Windows (native) where.exe claude C:\\Users\\you\\AppData\\Local\\Claude\\claude.exe" [ref=e202]:
+                  - cell "Windows (native)" [ref=e203]
+                  - cell "where.exe claude" [ref=e204]:
+                    - code [ref=e205]: where.exe claude
+                  - cell "C:\\Users\\you\\AppData\\Local\\Claude\\claude.exe" [ref=e206]:
+                    - code [ref=e207]: C:\Users\you\AppData\Local\Claude\claude.exe
+                - 'row "Windows (npm) npm root -g {root}\\@anthropic-ai\\claude-code\\cli-wrapper.cjs" [ref=e208]':
+                  - cell "Windows (npm)" [ref=e209]
+                  - cell "npm root -g" [ref=e210]:
+                    - code [ref=e211]: npm root -g
+                  - 'cell "{root}\\@anthropic-ai\\claude-code\\cli-wrapper.cjs" [ref=e212]':
+                    - code [ref=e213]: "{root}\\@anthropic-ai\\claude-code\\cli-wrapper.cjs"
+            - blockquote [ref=e214]:
+              - paragraph [ref=e215]:
+                - strong [ref=e216]: Note
+                - text: ": On Windows, avoid"
+                - code [ref=e217]: .cmd
+                - text: and
+                - code [ref=e218]: .ps1
+                - text: wrappers. Use
+                - code [ref=e219]: claude.exe
+                - text: for native installs, or
+                - code [ref=e220]: cli-wrapper.cjs
+                - text: for package-manager installs.
+                - code [ref=e221]: cli.js
+                - text: is only a legacy fallback for older Claude Code npm packages.
+            - paragraph [ref=e222]:
+              - strong [ref=e223]: Alternative
+              - text: ": Add your Node.js bin directory to PATH in Settings → Environment → Custom variables."
+            - heading "npm CLI and Node.js not in same directory" [level=3] [ref=e224]
+            - paragraph [ref=e225]:
+              - text: If using npm-installed CLI, check if
+              - code [ref=e226]: claude
+              - text: and
+              - code [ref=e227]: node
+              - text: "are in the same directory:"
+            - code [ref=e229]: dirname $(which claude) dirname $(which node)
+            - paragraph [ref=e230]: If different, GUI apps like Obsidian may not find Node.js.
+            - paragraph [ref=e231]:
+              - strong [ref=e232]: Solutions
+              - text: ":"
+            - list [ref=e233]:
+              - listitem [ref=e234]: Install native binary (recommended)
+              - listitem [ref=e235]:
+                - text: "Add Node.js path to Settings → Environment:"
+                - code [ref=e236]: PATH=/path/to/node/bin
+            - heading "Other providers" [level=3] [ref=e237]
+            - paragraph [ref=e238]:
+              - text: Codex, Opencode, and Pi support are live but features might be incomplete, and still need more testing across platforms and installation methods. If you have feature request or run into any bugs, please
+              - link "submit a GitHub issue" [ref=e239] [cursor=pointer]:
+                - /url: https://github.com/YishenTu/claudian/issues
+              - text: .
+            - heading "Architecture" [level=2] [ref=e240]
+            - code [ref=e242]: "src/ ├── main.ts # Plugin entry point ├── app/ # Shared defaults and plugin-level storage ├── core/ # Provider-neutral runtime, registry, and type contracts │ ├── runtime/ # ChatRuntime interface and approval types │ ├── providers/ # Provider registry and workspace services │ ├── auxiliary/ # Shared provider auxiliary services │ ├── bootstrap/ # Plugin bootstrap wiring │ ├── security/ # Approval utilities │ └── ... # commands, mcp, prompt, storage, tools, types ├── providers/ │ ├── claude/ # Claude SDK adaptor, prompt encoding, storage, MCP, plugins │ ├── codex/ # Codex app-server adaptor, JSON-RPC transport, JSONL history │ ├── opencode/ # Opencode adaptor │ ├── pi/ # Pi RPC adaptor, model discovery, JSONL history │ └── acp/ # Agent Client Protocol shared transport ├── features/ │ ├── chat/ # Sidebar chat: tabs, controllers, renderers │ ├── inline-edit/ # Inline edit modal and provider-backed edit services │ └── settings/ # Settings shell with provider tabs ├── shared/ # Reusable UI components and modals ├── i18n/ # Internationalization (10 locales) ├── types/ # Shared ambient types ├── utils/ # Cross-cutting utilities └── style/ # Modular CSS"
+            - heading "License" [level=2] [ref=e243]
+            - paragraph [ref=e244]:
+              - text: Licensed under the
+              - link "MIT License" [ref=e245] [cursor=pointer]:
+                - /url: LICENSE
+              - text: .
+            - heading "Sponsorship" [level=2] [ref=e246]
+            - heading "Ke Holdings Inc. (BEIKE)" [level=3] [ref=e247]
+            - img "MOMA" [ref=e248]
+            - paragraph [ref=e249]: Claudian is proudly sponsored by Ke Holdings Inc. (BEIKE) and the MOMA team. Their support helps Claudian continue to improve through ongoing development and maintenance.
+            - blockquote [ref=e250]:
+              - paragraph [ref=e251]:
+                - text: "Want to support Claudian or appear here? Contact me:"
+                - link "tysk01213@gmail.com" [ref=e252] [cursor=pointer]:
+                  - /url: mailto:tysk01213@gmail.com
+                - text: .
+            - heading "Star History" [level=2] [ref=e253]
+            - link "Star History Chart" [ref=e254] [cursor=pointer]:
+              - /url: https://www.star-history.com/?repos=YishenTu%2Fclaudian&type=date&legend=top-left
+              - img "Star History Chart" [ref=e256]
+            - heading "Acknowledgments" [level=2] [ref=e257]
+            - list [ref=e258]:
+              - listitem [ref=e259]:
+                - link "Obsidian" [ref=e260] [cursor=pointer]:
+                  - /url: https://obsidian.md
+                - text: for the plugin API
+              - listitem [ref=e261]:
+                - link "Anthropic" [ref=e262] [cursor=pointer]:
+                  - /url: https://anthropic.com
+                - text: for Claude and the
+                - link "Claude Agent SDK" [ref=e263] [cursor=pointer]:
+                  - /url: https://platform.claude.com/docs/en/agent-sdk/overview
+              - listitem [ref=e264]:
+                - link "OpenAI" [ref=e265] [cursor=pointer]:
+                  - /url: https://openai.com
+                - text: for
+                - link "Codex" [ref=e266] [cursor=pointer]:
+                  - /url: https://github.com/openai/codex
+              - listitem [ref=e267]:
+                - link "Opencode" [ref=e268] [cursor=pointer]:
+                  - /url: https://opencode.ai/
+              - listitem [ref=e269]:
+                - link "Pi" [ref=e270] [cursor=pointer]:
+                  - /url: https://github.com/earendil-works/pi
+          - button "Show more" [ref=e272] [cursor=pointer]
+      - generic [ref=e273]:
+        - link "Health Excellent Review Satisfactory" [ref=e274] [cursor=pointer]:
+          - /url: "#scorecard"
+          - generic [ref=e275]:
+            - generic [ref=e277]:
+              - generic [ref=e278]: Health
+              - generic [ref=e279]: Excellent
+            - generic [ref=e286]:
+              - generic [ref=e287]: Review
+              - generic [ref=e288]: Satisfactory
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - generic [ref=e296]: About
+            - text: Embed AI coding agents in your vault to read, write, search, run commands and execute multi-step workflows within the vault.
+          - generic [ref=e297]:
+            - link "AI" [ref=e298] [cursor=pointer]:
+              - /url: /search?type=plugin&categories=ai
+              - img [ref=e299]
+              - generic [ref=e302]: AI
+            - link "Developers" [ref=e303] [cursor=pointer]:
+              - /url: /search?type=plugin&categories=developers
+              - img [ref=e304]
+              - generic [ref=e306]: Developers
+            - link "Files" [ref=e307] [cursor=pointer]:
+              - /url: /search?type=plugin&categories=files
+              - img [ref=e308]
+              - generic [ref=e311]: Files
+        - generic [ref=e312]:
+          - generic [ref=e313]: Details
+          - generic [ref=e314]:
+            - generic [ref=e315]: Current version
+            - generic [ref=e316]: 2.0.34
+            - generic [ref=e317]: Last updated
+            - generic "Jul 13, 2026" [ref=e318]: 3 days ago
+            - generic [ref=e319]: Created
+            - generic "Dec 5, 2025" [ref=e320]: 7 months ago
+            - generic [ref=e321]: Updates
+            - generic [ref=e322]: 51 releases
+            - generic [ref=e323]: Downloads
+            - generic [ref=e324]: 1.4M
+            - generic [ref=e325]: Compatible with
+            - generic [ref=e326]: Obsidian 1.7.2+
+            - generic [ref=e327]: Platforms
+            - generic [ref=e328]: Desktop only
+            - generic [ref=e329]: License
+            - generic [ref=e330]: MIT
+        - generic [ref=e331]:
+          - generic [ref=e332]: Author
+          - generic [ref=e334]:
+            - link "Yishen Tu Yishen Tu yishentu" [ref=e335] [cursor=pointer]:
+              - /url: /users/yishentu
+              - img "Yishen Tu" [ref=e337]
+              - generic [ref=e338]:
+                - generic [ref=e339]: Yishen Tu
+                - generic [ref=e340]: yishentu
+            - generic [ref=e342]:
+              - img "GitHub" [ref=e343]
+              - link "yishentu" [ref=e345] [cursor=pointer]:
+                - /url: https://github.com/yishentu
+    - generic [ref=e346]:
+      - generic [ref=e347]:
+        - heading "Related plugins" [level=2] [ref=e348]
+        - generic [ref=e349]:
+          - link "Local REST API with MCP Unlock your automation needs by interacting with your notes over a secure REST API." [ref=e350] [cursor=pointer]:
+            - /url: /plugins/obsidian-local-rest-api
+            - generic [ref=e351]:
+              - img [ref=e353]
+              - generic [ref=e357]:
+                - heading "Local REST API with MCP" [level=3] [ref=e358]:
+                  - generic [ref=e359]: Local REST API with MCP
+                - paragraph [ref=e360]: Unlock your automation needs by interacting with your notes over a secure REST API.
+          - link "Gemini Scribe Allows you to interact with Gemini and use your notes as context." [ref=e361] [cursor=pointer]:
+            - /url: /plugins/gemini-scribe
+            - generic [ref=e362]:
+              - img [ref=e364]
+              - generic [ref=e367]:
+                - heading "Gemini Scribe" [level=3] [ref=e368]:
+                  - generic [ref=e369]: Gemini Scribe
+                - paragraph [ref=e370]: Allows you to interact with Gemini and use your notes as context.
+          - link "ChatGPT MD A seamless integration of ChatGPT, OpenRouter.ai and local LLMs via Ollama into your notes." [ref=e371] [cursor=pointer]:
+            - /url: /plugins/chatgpt-md
+            - generic [ref=e372]:
+              - img [ref=e374]
+              - generic [ref=e376]:
+                - heading "ChatGPT MD" [level=3] [ref=e377]:
+                  - generic [ref=e378]: ChatGPT MD
+                - paragraph [ref=e379]: A seamless integration of ChatGPT, OpenRouter.ai and local LLMs via Ollama into your notes.
+          - link "Claude Code IDE Connect your vault to Claude Code and share editor context with the CLI." [ref=e380] [cursor=pointer]:
+            - /url: /plugins/claude-code-ide
+            - generic [ref=e381]:
+              - img [ref=e383]
+              - generic [ref=e386]:
+                - heading "Claude Code IDE" [level=3] [ref=e387]:
+                  - generic [ref=e388]: Claude Code IDE
+                - paragraph [ref=e389]: Connect your vault to Claude Code and share editor context with the CLI.
+          - link "AI Agent Lend your vault to an AI agent. It can read, write, and search your notes." [ref=e390] [cursor=pointer]:
+            - /url: /plugins/ai-agent
+            - generic [ref=e391]:
+              - img [ref=e393]
+              - generic [ref=e401]:
+                - heading "AI Agent" [level=3] [ref=e402]:
+                  - generic [ref=e403]: AI Agent
+                - paragraph [ref=e404]: Lend your vault to an AI agent. It can read, write, and search your notes.
+          - link "Notebook Navigator A better file browser and calendar inspired by Apple Notes, Bear, Evernote and Day One." [ref=e405] [cursor=pointer]:
+            - /url: /plugins/notebook-navigator
+            - generic [ref=e406]:
+              - img [ref=e408]
+              - generic [ref=e410]:
+                - heading "Notebook Navigator" [level=3] [ref=e411]:
+                  - generic [ref=e412]: Notebook Navigator
+                - paragraph [ref=e413]: A better file browser and calendar inspired by Apple Notes, Bear, Evernote and Day One.
+          - link "Smart Connections Find related notes and excerpts while writing. Your AI link building copilot displays relevant content in graph + list view. A local embedding model powers semantic search. Zero setup. No API key." [ref=e414] [cursor=pointer]:
+            - /url: /plugins/smart-connections
+            - generic [ref=e415]:
+              - img [ref=e417]
+              - generic [ref=e425]:
+                - heading "Smart Connections" [level=3] [ref=e426]:
+                  - generic [ref=e427]: Smart Connections
+                - paragraph [ref=e428]: Find related notes and excerpts while writing. Your AI link building copilot displays relevant content in graph + list view. A local embedding model powers semantic search. Zero setup. No API key.
+          - link "Recent Files Display a list of recently opened files." [ref=e429] [cursor=pointer]:
+            - /url: /plugins/recent-files-obsidian
+            - generic [ref=e430]:
+              - img [ref=e432]
+              - generic [ref=e437]:
+                - heading "Recent Files" [level=3] [ref=e438]:
+                  - generic [ref=e439]: Recent Files
+                - paragraph [ref=e440]: Display a list of recently opened files.
+          - link "BRAT Easily install a beta version of a plugin for testing." [ref=e441] [cursor=pointer]:
+            - /url: /plugins/obsidian42-brat
+            - generic [ref=e442]:
+              - img [ref=e444]
+              - generic [ref=e446]:
+                - heading "BRAT" [level=3] [ref=e447]:
+                  - generic [ref=e448]: BRAT
+                - paragraph [ref=e449]: Easily install a beta version of a plugin for testing.
+      - navigation [ref=e452]:
+        - list [ref=e453]:
+          - listitem [ref=e454]:
+            - generic [ref=e455]:
+              - link "Community" [ref=e456] [cursor=pointer]:
+                - /url: /
+              - img [ref=e457]
+          - listitem [ref=e459]:
+            - generic [ref=e460]:
+              - link "Plugins" [ref=e461] [cursor=pointer]:
+                - /url: /plugins
+              - img [ref=e462]
+          - listitem [ref=e464]:
+            - generic [ref=e465]:
+              - link "AI" [ref=e466] [cursor=pointer]:
+                - /url: /search?type=plugin&categories=ai
+              - img [ref=e467]
+          - listitem [ref=e469]:
+            - generic [ref=e471]: Claudian
+  - contentinfo [ref=e472]:
+    - generic [ref=e473]:
+      - generic [ref=e474]:
+        - list [ref=e475]:
+          - listitem [ref=e476]: Get started
+          - listitem [ref=e477]:
+            - link "Download" [ref=e478] [cursor=pointer]:
+              - /url: https://obsidian.md/download
+          - listitem [ref=e479]:
+            - link "Pricing" [ref=e480] [cursor=pointer]:
+              - /url: https://obsidian.md/pricing
+          - listitem [ref=e481]:
+            - link "Enterprise" [ref=e482] [cursor=pointer]:
+              - /url: https://obsidian.md/enterprise
+          - listitem [ref=e483]:
+            - link "Account" [ref=e484] [cursor=pointer]:
+              - /url: https://obsidian.md/account
+        - list [ref=e485]:
+          - listitem [ref=e486]: Obsidian
+          - listitem [ref=e487]:
+            - link "Overview" [ref=e488] [cursor=pointer]:
+              - /url: https://obsidian.md
+          - listitem [ref=e489]:
+            - link "Sync" [ref=e490] [cursor=pointer]:
+              - /url: https://obsidian.md/sync
+          - listitem [ref=e491]:
+            - link "Publish" [ref=e492] [cursor=pointer]:
+              - /url: https://obsidian.md/publish
+          - listitem [ref=e493]:
+            - link "Canvas" [ref=e494] [cursor=pointer]:
+              - /url: https://obsidian.md/canvas
+          - listitem [ref=e495]:
+            - link "Mobile" [ref=e496] [cursor=pointer]:
+              - /url: https://obsidian.md/mobile
+          - listitem [ref=e497]:
+            - link "Web Clipper" [ref=e498] [cursor=pointer]:
+              - /url: https://obsidian.md/clipper
+          - listitem [ref=e499]:
+            - link "CLI" [ref=e500] [cursor=pointer]:
+              - /url: https://obsidian.md/cli
+      - generic [ref=e501]:
+        - list [ref=e502]:
+          - listitem [ref=e503]: Learn
+          - listitem [ref=e504]:
+            - link "Help" [ref=e505] [cursor=pointer]:
+              - /url: https://obsidian.md/help/
+          - listitem [ref=e506]:
+            - link "Developers" [ref=e507] [cursor=pointer]:
+              - /url: https://docs.obsidian.md/
+          - listitem [ref=e508]:
+            - link "Changelog" [ref=e509] [cursor=pointer]:
+              - /url: https://obsidian.md/changelog
+          - listitem [ref=e510]:
+            - link "About" [ref=e511] [cursor=pointer]:
+              - /url: https://obsidian.md/about
+          - listitem [ref=e512]:
+            - link "Roadmap" [ref=e513] [cursor=pointer]:
+              - /url: https://obsidian.md/roadmap
+          - listitem [ref=e514]:
+            - link "Blog" [ref=e515] [cursor=pointer]:
+              - /url: https://obsidian.md/blog
+        - list [ref=e516]:
+          - listitem [ref=e517]: Resources
+          - listitem [ref=e518]:
+            - link "System status" [ref=e519] [cursor=pointer]:
+              - /url: https://status.obsidian.md
+          - listitem [ref=e520]:
+            - link "License overview" [ref=e521] [cursor=pointer]:
+              - /url: https://obsidian.md/license
+          - listitem [ref=e522]:
+            - link "Terms of service" [ref=e523] [cursor=pointer]:
+              - /url: https://obsidian.md/terms
+          - listitem [ref=e524]:
+            - link "Privacy policy" [ref=e525] [cursor=pointer]:
+              - /url: https://obsidian.md/privacy
+          - listitem [ref=e526]:
+            - link "Security" [ref=e527] [cursor=pointer]:
+              - /url: https://obsidian.md/security
+      - list [ref=e529]:
+        - listitem [ref=e530]: Community
+        - listitem [ref=e531]:
+          - link "Plugins" [ref=e532] [cursor=pointer]:
+            - /url: /plugins
+        - listitem [ref=e533]:
+          - link "Themes" [ref=e534] [cursor=pointer]:
+            - /url: /themes
+        - listitem [ref=e535]:
+          - link "Discord" [ref=e536] [cursor=pointer]:
+            - /url: https://discord.gg/obsidianmd
+        - listitem [ref=e537]:
+          - link "Forum" [ref=e538] [cursor=pointer]:
+            - /url: https://forum.obsidian.md
+          - text: /
+          - link "中文论坛" [ref=e539] [cursor=pointer]:
+            - /url: https://forum-zh.obsidian.md
+        - listitem [ref=e540]:
+          - link "Merch store" [ref=e541] [cursor=pointer]:
+            - /url: https://obsidian.md/softwear
+        - listitem [ref=e542]:
+          - link "Brand guidelines" [ref=e543] [cursor=pointer]:
+            - /url: https://obsidian.md/brand
+    - generic [ref=e544]:
+      - link "Go to the Obsidian home page" [ref=e545] [cursor=pointer]:
+        - /url: https://obsidian.md
+        - generic [ref=e546]:
+          - img [ref=e547]
+          - img [ref=e553]
+      - generic [ref=e562]: Follow us
+      - generic [ref=e563]:
+        - link "Discord" [ref=e564] [cursor=pointer]:
+          - /url: https://discord.com/invite/obsidianmd
+        - link "Twitter" [ref=e565] [cursor=pointer]:
+          - /url: https://x.com/obsdmd
+        - link "Bluesky" [ref=e566] [cursor=pointer]:
+          - /url: https://bsky.app/profile/obsidian.md
+        - link "Threads" [ref=e567] [cursor=pointer]:
+          - /url: https://www.threads.net/@obsdmd
+        - link "Mastodon" [ref=e568] [cursor=pointer]:
+          - /url: https://mas.to/@obsidian
+        - link "YouTube" [ref=e569] [cursor=pointer]:
+          - /url: https://www.youtube.com/@obsdmd
+        - link "GitHub" [ref=e570] [cursor=pointer]:
+          - /url: https://github.com/obsidianmd
+      - generic [ref=e571]: © 2026 Obsidian
+  - alert [ref=e572]

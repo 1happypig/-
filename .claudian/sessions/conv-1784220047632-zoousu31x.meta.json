@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784220047632-zoousu31x",
+  "providerId": "claude",
+  "title": "Fix document formatting issues",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784220047632,
+  "updatedAt": 1784220424232,
+  "lastResponseAt": 1784220424232,
+  "sessionId": "6b7963e7-bdd2-455f-acbf-8932fd0b1949",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "6b7963e7-bdd2-455f-acbf-8932fd0b1949"
+  },
+  "currentNote": "理论知识/搜打撤关卡设计实战方法论.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 3450,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 79616,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 83066,
+    "percentage": 42
+  }
+}

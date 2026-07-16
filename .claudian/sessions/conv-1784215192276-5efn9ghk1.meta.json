@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784215192276-5efn9ghk1",
+  "providerId": "claude",
+  "title": "Polish portfolio for autumn recruitment",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784215192283,
+  "updatedAt": 1784220030342,
+  "lastResponseAt": 1784218906630,
+  "sessionId": "96eb24e1-8259-47f3-aace-4d5ac01f635c",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "96eb24e1-8259-47f3-aace-4d5ac01f635c"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 140,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 204928,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 205068,
+    "percentage": 100
+  }
+}
