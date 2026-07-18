@@ -1,0 +1,1218 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - region "Announcement" [ref=e4]:
+      - generic [ref=e5]:
+        - link "New Future AGI is now open source · Run it on your own infra" [ref=e6] [cursor=pointer]:
+          - /url: https://github.com/future-agi/future-agi
+          - generic [ref=e7]: New
+          - generic [ref=e8]: Future AGI is now open source
+          - generic [ref=e9]: ·
+          - generic [ref=e10]:
+            - text: Run it on your own infra
+            - img [ref=e11]
+        - button "Dismiss announcement" [ref=e13]:
+          - img [ref=e14]
+    - navigation [ref=e17]:
+      - link "Future AGI — home" [ref=e18] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e19]:
+          - img [ref=e20]
+          - img "FutureAGI" [ref=e25]
+      - button "Toggle menu" [ref=e35]:
+        - img [ref=e36]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic: Platform
+            - generic:
+              - generic:
+                - button "01 SIMULATIONS Test at scale":
+                  - generic:
+                    - generic: "01"
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: SIMULATIONS
+                      - generic: Test at scale
+                  - img
+                - generic:
+                  - generic:
+                    - link "Simulations":
+                      - /url: /platform/simulate/
+                      - generic: Simulations
+                      - img
+                    - link "Scenarios":
+                      - /url: /platform/simulate/scenarios/
+                      - generic: Scenarios
+                      - img
+                    - link "Synthetic Data Generation":
+                      - /url: /platform/simulate/synthetic-data/
+                      - generic: Synthetic Data Generation
+                      - img
+              - generic:
+                - button "02 AGENTS Iterate and refine":
+                  - generic:
+                    - generic: "02"
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: AGENTS
+                      - generic: Iterate and refine
+                  - img
+                - generic:
+                  - generic:
+                    - link "Datasets":
+                      - /url: /platform/agents/datasets/
+                      - generic: Datasets
+                      - img
+                    - link "Agent IDE":
+                      - /url: /platform/agents/ide/
+                      - generic: Agent IDE
+                      - img
+                    - link "Experiments":
+                      - /url: /platform/agents/experiments/
+                      - generic: Experiments
+                      - img
+              - generic:
+                - button "03 EVALUATE Catch issues":
+                  - generic:
+                    - generic: "03"
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: EVALUATE
+                      - generic: Catch issues
+                  - img
+                - generic:
+                  - generic:
+                    - link "Error Feed":
+                      - /url: /platform/evaluate/error-feeds/
+                      - generic: Error Feed
+                      - img
+                    - link "Evaluate":
+                      - /url: /platform/evaluate/
+                      - generic: Evaluate
+                      - img
+                    - link "Protect":
+                      - /url: /platform/guard/
+                      - generic: Protect
+                      - img
+              - generic:
+                - button "04 OPTIMIZE Improve with data":
+                  - generic:
+                    - generic: "04"
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: OPTIMIZE
+                      - generic: Improve with data
+                  - img
+                - generic:
+                  - generic:
+                    - link "AI Optimization":
+                      - /url: /platform/optimize/rl/
+                      - generic: AI Optimization
+                      - img
+              - generic:
+                - button "05 MONITOR Insights in realtime":
+                  - generic:
+                    - generic: "05"
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: MONITOR
+                      - generic: Insights in realtime
+                  - img
+                - generic:
+                  - generic:
+                    - link "Tracing":
+                      - /url: /platform/monitor/tracing/
+                      - generic: Tracing
+                      - img
+                    - link "Dashboards":
+                      - /url: /platform/monitor/dashboards/
+                      - generic: Dashboards
+                      - img
+                    - link "Alerting":
+                      - /url: /platform/monitor/alerting/
+                      - generic: Alerting
+                      - img
+                    - link "Command Center":
+                      - /url: /platform/monitor/command-center/
+                      - generic: Command Center
+                      - img
+          - generic:
+            - generic: Audience
+            - generic:
+              - link "Enterprise Scale with confidence":
+                - /url: /enterprise/
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Enterprise
+                    - generic: Scale with confidence
+                - img
+              - link "Startups Move fast, stay safe":
+                - /url: /startups/
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Startups
+                    - generic: Move fast, stay safe
+                - img
+          - generic:
+            - generic: LEARN
+            - generic:
+              - link "Use Cases":
+                - /url: /customers/
+                - text: Use Cases
+                - img
+              - link "Blog":
+                - /url: /blog/
+                - text: Blog
+                - img
+              - link "eBooks":
+                - /url: /ebooks/
+                - text: eBooks
+                - img
+              - generic:
+                - link "AI Agent Evaluation":
+                  - /url: /ebooks/mastering-ai-agent-evaluation/
+                  - text: AI Agent Evaluation
+                  - img
+                - link "Agentic RAG Playbook":
+                  - /url: /ebooks/mastering-agentic-rag/
+                  - text: Agentic RAG Playbook
+                  - img
+                - link "Advanced RAG Patterns":
+                  - /url: /ebooks/advanced-rag-patterns/
+                  - text: Advanced RAG Patterns
+                  - img
+              - link "Research":
+                - /url: /research/
+                - text: Research
+                - img
+              - link "Changelog":
+                - /url: /changelog/
+                - text: Changelog
+                - img
+          - generic:
+            - generic: DEVELOPERS
+            - generic:
+              - link "Documentation":
+                - /url: https://docs.futureagi.com
+                - text: Documentation
+                - img
+              - link "API Reference":
+                - /url: https://docs.futureagi.com/docs/api
+                - text: API Reference
+                - img
+              - link "SDK Reference":
+                - /url: https://docs.futureagi.com/docs/sdk
+                - text: SDK Reference
+                - img
+              - link "Integrations":
+                - /url: /integrations/
+                - text: Integrations
+                - img
+              - link "LLM Cost Calculator":
+                - /url: /llm-cost-calculator/
+                - text: LLM Cost Calculator
+                - img
+              - link "Evaluation TCO Calculator":
+                - /url: /eval-tco-calculator/
+                - text: Evaluation TCO Calculator
+                - img
+          - generic:
+            - generic: Featured
+            - generic:
+              - link "Mastering AI Agent Evaluation The complete guide to evaluating AI agents in production Download free":
+                - /url: /ebooks/mastering-ai-agent-evaluation/
+                - generic: Mastering AI Agent Evaluation
+                - paragraph: The complete guide to evaluating AI agents in production
+                - generic:
+                  - img
+                  - text: Download free
+              - link "The Agentic RAG Playbook Enterprise RAG from theory to production-ready systems Download free":
+                - /url: /ebooks/mastering-agentic-rag/
+                - generic: The Agentic RAG Playbook
+                - paragraph: Enterprise RAG from theory to production-ready systems
+                - generic:
+                  - img
+                  - text: Download free
+          - generic:
+            - link "Pricing":
+              - /url: /pricing/
+              - text: Pricing
+              - img
+            - link "Docs":
+              - /url: https://docs.futureagi.com
+              - text: Docs
+              - img
+        - generic:
+          - generic:
+            - generic:
+              - link "Get Started - Free":
+                - /url: https://app.futureagi.com/auth/jwt/register
+          - link "Star on GitHub 1.4k":
+            - /url: https://github.com/future-agi/future-agi
+            - img
+            - generic: Star on GitHub
+            - generic:
+              - img
+              - generic: 1.4k
+  - dialog:
+    - generic:
+      - generic:
+        - generic:
+          - img
+          - textbox "Search documentation, features, guides..."
+          - generic: ESC
+        - generic:
+          - generic: Platform
+          - link "Guard Block AI hallucinations in real-time with guardrails":
+            - /url: /platform/guard/
+            - generic:
+              - img
+            - generic:
+              - generic: Guard
+              - generic: Block AI hallucinations in real-time with guardrails
+            - img
+          - link "Evaluate Run comprehensive evaluations with 20+ metrics":
+            - /url: /platform/evaluate/
+            - generic:
+              - img
+            - generic:
+              - generic: Evaluate
+              - generic: Run comprehensive evaluations with 20+ metrics
+            - img
+          - link "Error Feed Sentry-style error tracking for AI agents":
+            - /url: /platform/evaluate/error-feeds/
+            - generic:
+              - img
+            - generic:
+              - generic: Error Feed
+              - generic: Sentry-style error tracking for AI agents
+            - img
+          - link "Simulations Simulate thousands of multi-turn conversations":
+            - /url: /platform/simulate/
+            - generic:
+              - img
+            - generic:
+              - generic: Simulations
+              - generic: Simulate thousands of multi-turn conversations
+            - img
+          - link "Scenarios Define branching conversation test scenarios":
+            - /url: /platform/simulate/scenarios/
+            - generic:
+              - img
+            - generic:
+              - generic: Scenarios
+              - generic: Define branching conversation test scenarios
+            - img
+          - link "Synthetic Data Generate diverse, realistic test data":
+            - /url: /platform/simulate/synthetic-data/
+            - generic:
+              - img
+            - generic:
+              - generic: Synthetic Data
+              - generic: Generate diverse, realistic test data
+            - img
+          - link "AI Optimization Continuous improvement with reinforcement learning":
+            - /url: /platform/optimize/rl/
+            - generic:
+              - img
+            - generic:
+              - generic: AI Optimization
+              - generic: Continuous improvement with reinforcement learning
+            - img
+          - link "Tracing End-to-end request tracing for AI agents":
+            - /url: /platform/monitor/tracing/
+            - generic:
+              - img
+            - generic:
+              - generic: Tracing
+              - generic: End-to-end request tracing for AI agents
+            - img
+          - link "Dashboards Custom dashboards with drag-and-drop widgets":
+            - /url: /platform/monitor/dashboards/
+            - generic:
+              - img
+            - generic:
+              - generic: Dashboards
+              - generic: Custom dashboards with drag-and-drop widgets
+            - img
+          - link "Alerting AI-powered alerts for anomalies and hallucination spikes":
+            - /url: /platform/monitor/alerting/
+            - generic:
+              - img
+            - generic:
+              - generic: Alerting
+              - generic: AI-powered alerts for anomalies and hallucination spikes
+            - img
+          - link "Guardrails (Monitor) Real-time guardrail monitoring and block rate insights":
+            - /url: /platform/monitor/guardrails/
+            - generic:
+              - img
+            - generic:
+              - generic: Guardrails (Monitor)
+              - generic: Real-time guardrail monitoring and block rate insights
+            - img
+          - link "Datasets Manage and version evaluation datasets":
+            - /url: /platform/agents/datasets/
+            - generic:
+              - img
+            - generic:
+              - generic: Datasets
+              - generic: Manage and version evaluation datasets
+            - img
+          - link "Experiments Structured experiments across models and prompts":
+            - /url: /platform/agents/experiments/
+            - generic:
+              - img
+            - generic:
+              - generic: Experiments
+              - generic: Structured experiments across models and prompts
+            - img
+          - link "Agent IDE Build & test AI agents visually":
+            - /url: /platform/agents/ide/
+            - generic:
+              - img
+            - generic:
+              - generic: Agent IDE
+              - generic: Build & test AI agents visually
+            - img
+          - generic: Pages
+          - link "Home Future AGI - AI agent hallucination detection platform":
+            - /url: /
+            - generic:
+              - img
+            - generic:
+              - generic: Home
+              - generic: Future AGI - AI agent hallucination detection platform
+            - img
+          - link "Pricing Simple, transparent pricing. Start free, scale as you grow.":
+            - /url: /pricing/
+            - generic:
+              - img
+            - generic:
+              - generic: Pricing
+              - generic: Simple, transparent pricing. Start free, scale as you grow.
+            - img
+          - link "Enterprise Enterprise-grade AI safety at scale":
+            - /url: /enterprise/
+            - generic:
+              - img
+            - generic:
+              - generic: Enterprise
+              - generic: Enterprise-grade AI safety at scale
+            - img
+          - link "Startups $10K in free credits and 6 months Pro access":
+            - /url: /startups/
+            - generic:
+              - img
+            - generic:
+              - generic: Startups
+              - generic: $10K in free credits and 6 months Pro access
+            - img
+          - link "Roadmap Public product roadmap - see what we're building next":
+            - /url: /roadmap/
+            - generic:
+              - img
+            - generic:
+              - generic: Roadmap
+              - generic: Public product roadmap - see what we're building next
+            - img
+          - link "Blog Guides, engineering deep-dives, and product updates":
+            - /url: /blog/
+            - generic:
+              - img
+            - generic:
+              - generic: Blog
+              - generic: Guides, engineering deep-dives, and product updates
+            - img
+          - link "Research Papers on hallucination detection, evaluation, and guardrails":
+            - /url: /research/
+            - generic:
+              - img
+            - generic:
+              - generic: Research
+              - generic: Papers on hallucination detection, evaluation, and guardrails
+            - img
+          - link "Customers Case studies from teams using Future AGI":
+            - /url: /customers/
+            - generic:
+              - img
+            - generic:
+              - generic: Customers
+              - generic: Case studies from teams using Future AGI
+            - img
+          - link "eBooks In-depth guides on AI agent evaluation and RAG":
+            - /url: /ebooks/
+            - generic:
+              - img
+            - generic:
+              - generic: eBooks
+              - generic: In-depth guides on AI agent evaluation and RAG
+            - img
+          - generic: Docs
+          - link "Introduction The complete platform to test, guard, and monitor AI agents. Build self-improving agents that ship smarter with every version.":
+            - /url: https://docs.futureagi.com/docs
+            - generic:
+              - img
+            - generic:
+              - generic: Introduction
+              - generic: The complete platform to test, guard, and monitor AI agents. Build self-improving agents that ship smarter with every version.
+            - img
+          - link "Overview Deploy the full Future AGI platform on your own infrastructure using Docker Compose. Follow the step-by-step guide to get all services running locally.":
+            - /url: https://docs.futureagi.com/docs/self-hosting
+            - generic:
+              - img
+            - generic:
+              - generic: Overview
+              - generic: Deploy the full Future AGI platform on your own infrastructure using Docker Compose. Follow the step-by-step guide to get all services running locally.
+            - img
+          - link "Requirements Hardware sizing tiers, supported platforms, OS compatibility, and network port requirements before deploying Future AGI with Docker Compose.":
+            - /url: https://docs.futureagi.com/docs/self-hosting/requirements
+            - generic:
+              - img
+            - generic:
+              - generic: Requirements
+              - generic: Hardware sizing tiers, supported platforms, OS compatibility, and network port requirements before deploying Future AGI with Docker Compose.
+            - img
+          - link "Docker Compose Deploy the full Future AGI stack with Docker Compose — all 21 services, dev overlay with hot reload, and frontend-only mode pointing at a remote backend.":
+            - /url: https://docs.futureagi.com/docs/self-hosting/docker-compose
+            - generic:
+              - img
+            - generic:
+              - generic: Docker Compose
+              - generic: Deploy the full Future AGI stack with Docker Compose — all 21 services, dev overlay with hot reload, and frontend-only mode pointing at a remote backend.
+            - img
+          - link "Environment Variables Full .env reference for self-hosted Future AGI — secrets, database credentials, runtime flags, LLM provider keys, email, and frontend build-time configuration.":
+            - /url: https://docs.futureagi.com/docs/self-hosting/environment
+            - generic:
+              - img
+            - generic:
+              - generic: Environment Variables
+              - generic: Full .env reference for self-hosted Future AGI — secrets, database credentials, runtime flags, LLM provider keys, email, and frontend build-time configuration.
+            - img
+          - link "System Configuration Configure the LLM gateway config.yaml with provider API keys, set up PeerDB Postgres-to-ClickHouse CDC mirrors, and tune Temporal worker concurrency.":
+            - /url: https://docs.futureagi.com/docs/self-hosting/configuration
+            - generic:
+              - img
+            - generic:
+              - generic: System Configuration
+              - generic: Configure the LLM gateway config.yaml with provider API keys, set up PeerDB Postgres-to-ClickHouse CDC mirrors, and tune Temporal worker concurrency.
+            - img
+          - link "User Management Create user accounts, reset passwords, and manage roles in self-hosted Future AGI — via Mailgun email flow or directly through the Django admin shell.":
+            - /url: https://docs.futureagi.com/docs/self-hosting/user-management
+            - generic:
+              - img
+            - generic:
+              - generic: User Management
+              - generic: Create user accounts, reset passwords, and manage roles in self-hosted Future AGI — via Mailgun email flow or directly through the Django admin shell.
+            - img
+        - generic:
+          - generic:
+            - generic:
+              - generic: ↑
+              - generic: ↓
+              - generic: Navigate
+            - generic:
+              - generic: ↵
+              - generic: Open
+  - main [ref=e38]:
+    - article [ref=e39]:
+      - generic [ref=e41]:
+        - link "Back to Blog" [ref=e43] [cursor=pointer]:
+          - /url: /blog/
+          - img [ref=e44]
+          - text: Back to Blog
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: Guides
+            - 'heading "Evaluating Search-Augmented Agents in 2026: The Four Axes RAG Eval Forgets" [level=1] [ref=e49]'
+            - paragraph [ref=e50]: "Generic RAG eval misses what kills search agents: bad queries, stale sources, monoculture, and broken cites. A four-axis rubric you can ship this week."
+            - generic [ref=e51]:
+              - time [ref=e53]: April 7, 2026
+              - generic [ref=e54]: ·
+              - generic [ref=e56]:
+                - text: Updated
+                - time [ref=e57]: May 20, 2026
+              - generic [ref=e58]: ·
+              - generic [ref=e60]: 11 min read
+            - generic [ref=e61]:
+              - generic [ref=e62]: llm-evaluation
+              - generic [ref=e63]: agent-evaluation
+              - generic [ref=e64]: rag
+              - generic [ref=e65]: web-search
+              - generic [ref=e66]: citation-validity
+              - generic [ref=e67]: "2026"
+          - img "Editorial cover image for Evaluating Search-Augmented Agents in 2026" [ref=e70]
+      - generic [ref=e73]:
+        - group [ref=e75]:
+          - generic "Table of Contents" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]: Table of Contents
+            - img [ref=e78]
+        - generic [ref=e80]:
+          - paragraph [ref=e81]: Search-augmented agents look like RAG until the citation list breaks. The first user clicks through, lands on a 404, and the trust budget for the product spends in one impression. Three months of eval work — Groundedness, ContextAdherence, FactualAccuracy, all green — did not catch it.
+          - paragraph [ref=e82]:
+            - text: The reason is structural. Generic RAG eval was built for a frozen vector store and a stable ground truth. Search-augmented agents have neither. The corpus is the live web. The agent issues a literal query string that drives what comes back. Sources span government filings and LinkedIn hot takes in a single result set. Users click the URLs.
+            - strong [ref=e83]: Skip the four axes that are unique to this shape — query quality, source freshness, source diversity, citation validity — and you ship an agent that confidently cites stale or fabricated URLs.
+            - text: Those four are the rubric. The rest of RAG eval still applies, but the rest of RAG eval was already passing.
+          - paragraph [ref=e84]:
+            - text: If you are coming from the broader
+            - link "2026 LLM evaluation playbook" [ref=e85] [cursor=pointer]:
+              - /url: /blog/llm-evaluation-playbook-2026/
+            - text: ", this post is the search-augmented variant. The dataset, judge, and CI gate ideas carry over. The four axes do not."
+          - heading "Why generic RAG eval misses what kills search agents" [level=2] [ref=e86]
+          - paragraph [ref=e87]: Three structural differences pull search-augmented eval out of the RAG bucket.
+          - paragraph [ref=e88]: "The corpus is not yours. A vector store you own is a stable artifact: index version, document IDs, chunking strategy, all fixed. The live web is none of those things. Two runs of the same query, twelve hours apart, return different URLs. Without a per-test-case cache, your CI flakes for reasons unrelated to the agent. Reproducibility lives in the snapshot, not in the SERP."
+          - paragraph [ref=e89]: The query is the lever. RAG retrieval is sensitive to embedding choice and chunking — the user’s prompt goes through encode and search. Search retrieval is sensitive to the literal query string the agent writes. “Best laptop 2026 for ML research with battery life over 10 hours” rewrites into something that either decomposes the battery constraint or drops it. A bad rewrite returns a clean-looking result set that misses the constraint, and no synthesis prompt recovers from it. RAG eval has no metric for this because RAG retrieval does not have a rewrite step that the agent controls.
+          - paragraph [ref=e90]: The user verifies. RAG citations point at internal document IDs the user usually cannot inspect. Search citations are URLs the user clicks. A fabricated URL is a one-click trust failure. A URL that resolves but points at a 2019 blog post on a 2026 question is the same. Citation validity becomes load-bearing in a way it never is for RAG. Groundedness against the retrieved set says nothing about whether the citation the agent emitted is real, whether it resolves, or whether the cited passage actually contains the claim.
+          - paragraph [ref=e91]:
+            - text: If you have only evaluated RAG before, the closest mental model is
+            - link "agentic RAG systems" [ref=e92] [cursor=pointer]:
+              - /url: /blog/agentic-rag-systems-2025/
+            - text: — where the agent makes retrieval decisions on the fly. Search-augmented is that, with the corpus replaced by the live web and the user reading the citations.
+          - complementary [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: Newsletter
+              - generic [ref=e96]: ·
+              - generic [ref=e97]: Mission Control
+            - heading "One email a week. The engineering side of AI reliability." [level=3] [ref=e98]
+            - paragraph [ref=e99]: Real writeups on agent observability, eval, hallucinations, and the failure modes nobody else publishes. No promotions.
+            - generic [ref=e100]:
+              - textbox "you@email.com" [ref=e101]
+              - button "Subscribe" [ref=e102]
+            - paragraph [ref=e103]: No spam. Unsubscribe anytime.
+          - heading "The four axes generic RAG eval forgets" [level=2] [ref=e104]
+          - paragraph [ref=e105]: The metric set that survives a month of search-agent traffic in production.
+          - table [ref=e107]:
+            - rowgroup [ref=e108]:
+              - row "Axis What it scores Failure mode Rubric anchor" [ref=e109]:
+                - columnheader "Axis" [ref=e110]
+                - columnheader "What it scores" [ref=e111]
+                - columnheader "Failure mode" [ref=e112]
+                - columnheader "Rubric anchor" [ref=e113]
+            - rowgroup [ref=e114]:
+              - row "1. Query quality The literal search string the agent sent Dropped constraint, over-broad rewrite, entity loss Constraint preservation, entity recall, rewrite calibration" [ref=e115]:
+                - cell "1. Query quality" [ref=e116]
+                - cell "The literal search string the agent sent" [ref=e117]
+                - cell "Dropped constraint, over-broad rewrite, entity loss" [ref=e118]
+                - cell "Constraint preservation, entity recall, rewrite calibration" [ref=e119]
+              - row "2. Source freshness Per-source recency vs the question’s clock Stale-fact bug, no freshness caveat on time-sensitive query Recency floor by question class, freshness annotation present" [ref=e120]:
+                - cell "2. Source freshness" [ref=e121]
+                - cell "Per-source recency vs the question’s clock" [ref=e122]
+                - cell "Stale-fact bug, no freshness caveat on time-sensitive query" [ref=e123]
+                - cell "Recency floor by question class, freshness annotation present" [ref=e124]
+              - row "3. Source diversity Domain spread across the retrieved set Three URLs from one domain, citation monoculture Unique-domain count, per-domain cap, primary-vs-secondary ratio" [ref=e125]:
+                - cell "3. Source diversity" [ref=e126]
+                - cell "Domain spread across the retrieved set" [ref=e127]
+                - cell "Three URLs from one domain, citation monoculture" [ref=e128]
+                - cell "Unique-domain count, per-domain cap, primary-vs-secondary ratio" [ref=e129]
+              - row "4. Citation validity URLs resolve and passages match 404 citation, paraphrase drift, fabricated reference URL resolves, cited passage contains the claim, anchor present" [ref=e130]:
+                - cell "4. Citation validity" [ref=e131]
+                - cell "URLs resolve and passages match" [ref=e132]
+                - cell "404 citation, paraphrase drift, fabricated reference" [ref=e133]
+                - cell "URL resolves, cited passage contains the claim, anchor present" [ref=e134]
+          - paragraph [ref=e135]: Score them per query, not aggregated. A single number across the four hides which one collapsed, and the diagnostic value is in the vector. The standard RAG metrics (Groundedness, ContextAdherence, FactualAccuracy, Completeness) still run alongside — they are necessary, just not sufficient.
+          - 'heading "Axis 1: Query quality" [level=2] [ref=e136]'
+          - paragraph [ref=e137]: The agent reads the user’s prompt and writes one or more search strings. That string is what the search engine literally reads. Three failure modes show up in almost every search-agent run.
+          - paragraph [ref=e138]: Constraint drop. The user asks for laptops with battery life over 10 hours. The rewriter compresses to “best laptops 2026 for ML” and the search returns ten options that average five-hour batteries. The synthesizer ranks them and ships. Groundedness is fine because the brief grounded itself in the retrieved set. The constraint is gone.
+          - paragraph [ref=e139]: Entity loss. The user asks about a specific company, regulation, or product version. The rewriter abstracts to a category. The search returns generic results. The brief is well-written and answers a different question.
+          - paragraph [ref=e140]: Over-broad rewrite. The user asks a narrow factual lookup. The rewriter expands into a broader topic. The search returns a Wikipedia overview. The brief paraphrases the overview and misses the specific fact.
+          - paragraph [ref=e141]:
+            - text: Score query quality with a
+            - code [ref=e142]: CustomLLMJudge
+            - text: that takes the user’s original prompt and the agent’s rewrite as a pair and scores constraint preservation and entity recall on a 1-5 scale.
+          - generic [ref=e143]:
+            - text: Python
+            - code [ref=e144]:
+              - generic [ref=e145]: from fi.evals import Evaluator
+              - generic [ref=e146]: from fi.evals.metrics import CustomLLMJudge
+              - generic [ref=e147]: from fi.evals.llm.providers.litellm import LiteLLMProvider
+              - generic [ref=e148]: query_quality_judge = CustomLLMJudge(
+              - generic [ref=e149]: provider=LiteLLMProvider(),
+              - generic [ref=e150]: "config={"
+              - generic [ref=e151]: "\"name\": \"query_rewrite_quality\","
+              - generic [ref=e152]: "\"model\": \"claude-sonnet-4-5\","
+              - generic [ref=e153]: "\"grading_criteria\": ("
+              - generic [ref=e154]: "\"Given the user's original prompt and the agent's search query, \""
+              - generic [ref=e155]: "\"score 1-5 on rewrite quality. 5 = every entity and constraint \""
+              - generic [ref=e156]: "\"from the prompt is preserved in the search query; the query is \""
+              - generic [ref=e157]: "\"specific enough to retrieve a narrow set. 1 = a constraint or \""
+              - generic [ref=e158]: "\"entity is dropped, or the rewrite is so broad it would surface \""
+              - generic [ref=e159]: "\"generic content. Penalize unnecessary expansion equally with drop.\""
+              - generic [ref=e160]: ),
+              - generic [ref=e161]: "},"
+              - generic [ref=e162]: )
+            - button "Copy code" [ref=e163] [cursor=pointer]:
+              - img [ref=e164]
+              - generic [ref=e166]: Copy
+          - paragraph [ref=e167]: The first time you run this rubric over a week of production traffic, the failure cluster will be “rewriter dropped the year/version/region” on roughly one in eight queries. It is the cheapest fix in the loop and the one most teams skip.
+          - 'heading "Axis 2: Source freshness" [level=2] [ref=e168]'
+          - paragraph [ref=e169]: "Freshness is a function of the question, not a global setting. “Capital of France” is freshness-insensitive. “Current price of X” is freshness-sensitive on the minute. “FDA guidance on AI-as-a-medical-device” is freshness-sensitive on the quarter. The agent has to decide which regime it is in and behave accordingly: prefer recent sources, refuse stale ones, and annotate the answer with a recency caveat when the question depends on current data."
+          - paragraph [ref=e170]: Two rubrics carry the axis.
+          - paragraph [ref=e171]: A freshness-regime classifier. Per query, classify the freshness sensitivity (insensitive, slow, fast, real-time). This can be a small judge or a heuristic over the question type. Attach the classification as a span attribute so downstream rubrics can score against it.
+          - paragraph [ref=e172]:
+            - text: A recency-floor check. Per retrieved source, attach
+            - code [ref=e173]: retrieval.source_recency_days
+            - text: (from the publication date in the result metadata, or from a date-extraction pass on the page itself if the provider does not return it). Per query, compute the median recency of cited sources. Fail when the median exceeds the recency floor for the freshness regime.
+          - generic [ref=e174]:
+            - text: Python
+            - code [ref=e175]:
+              - generic [ref=e176]: from fi.evals.metrics import CustomLLMJudge
+              - generic [ref=e177]: from fi.evals.llm.providers.litellm import LiteLLMProvider
+              - generic [ref=e178]: freshness_handling_judge = CustomLLMJudge(
+              - generic [ref=e179]: provider=LiteLLMProvider(),
+              - generic [ref=e180]: "config={"
+              - generic [ref=e181]: "\"name\": \"freshness_handling\","
+              - generic [ref=e182]: "\"model\": \"claude-sonnet-4-5\","
+              - generic [ref=e183]: "\"grading_criteria\": ("
+              - generic [ref=e184]: "\"Given the user's question, the freshness regime \""
+              - generic [ref=e185]: "\"(insensitive | slow | fast | real-time), and the agent's answer \""
+              - generic [ref=e186]: "\"with citations, score 1-5. 5 = the agent flagged the freshness \""
+              - generic [ref=e187]: "\"regime, preferred recent sources, and refused or annotated when \""
+              - generic [ref=e188]: "\"no recent source was available. 1 = the agent answered confidently \""
+              - generic [ref=e189]: "\"from a source older than the recency floor with no caveat.\""
+              - generic [ref=e190]: ),
+              - generic [ref=e191]: "},"
+              - generic [ref=e192]: )
+            - button "Copy code" [ref=e193] [cursor=pointer]:
+              - img [ref=e194]
+              - generic [ref=e196]: Copy
+          - paragraph [ref=e197]: The stale-fact bug is the failure mode users notice last and complain about loudest. It looks correct on the day the source was indexed and wrong every day after. Without an explicit freshness rubric, no other metric catches it.
+          - 'heading "Axis 3: Source diversity" [level=2] [ref=e198]'
+          - paragraph [ref=e199]: "A search call against a general engine returns Wikipedia, vendor blogs, news, government docs, Reddit, LinkedIn, and SEO spam in one set. The agent picks three to five to cite. The diversity failure mode is monoculture: all three citations are from the same domain, or all five trace back to the same upstream source, or the brief reads like consensus when it summarizes one tab of one website."
+          - paragraph [ref=e200]: Three checks cover the axis.
+          - paragraph [ref=e201]: Unique-domain count per citation set. If the brief has six citations and they live on three domains, log the count and apply a per-question-class floor. Factual lookups can be tight (two domains is fine for a date check). Synthesis questions need four or more.
+          - paragraph [ref=e202]: Per-domain cap on citations. No single domain contributes more than two citations to the same answer, except when the question is specifically about that domain (“what does the EU AI Act say about X” can cite eur-lex four times). The cap is a hard rail at the gateway boundary.
+          - paragraph [ref=e203]: "Primary-versus-secondary ratio. Per citation, classify as primary (original source: regulator filing, paper, vendor announcement, primary data) or secondary (commentary, summary, aggregator). A regulatory question with zero primary citations is a failure regardless of how grounded the brief is against the secondaries."
+          - generic [ref=e204]:
+            - text: Python
+            - code [ref=e205]:
+              - generic [ref=e206]: from collections import Counter
+              - generic [ref=e207]: from urllib.parse import urlparse
+              - generic [ref=e208]: "def evaluate_diversity(citations, per_domain_cap=2, min_unique_domains=3):"
+              - generic [ref=e209]: domains = [urlparse(c.url).netloc for c in citations]
+              - generic [ref=e210]: counts = Counter(domains)
+              - generic [ref=e211]: "return {"
+              - generic [ref=e212]: "\"unique_domain_count\": len(counts),"
+              - generic [ref=e213]: "\"max_per_domain\": max(counts.values()),"
+              - generic [ref=e214]: "\"monoculture\": ("
+              - generic [ref=e215]: len(counts) < min_unique_domains
+              - generic [ref=e216]: or max(counts.values()) > per_domain_cap
+              - generic [ref=e217]: ),
+              - generic [ref=e218]: "}"
+            - button "Copy code" [ref=e219] [cursor=pointer]:
+              - img [ref=e220]
+              - generic [ref=e222]: Copy
+          - paragraph [ref=e223]:
+            - text: The deterministic version runs in microseconds and slots in as a
+            - code [ref=e224]: RailType.OUTPUT
+            - text: rail before the brief ships. The judge version handles the primary-versus-secondary classification on top.
+          - 'heading "Axis 4: Citation validity" [level=2] [ref=e225]'
+          - paragraph [ref=e226]: The highest-signal cheap check in the entire stack, and the one most teams discover only after the first user complaint. Three sub-checks compose it.
+          - paragraph [ref=e227]: The URL resolves. HEAD-request every citation in the answer. A non-2xx response is a fail. A redirect to a different domain is a fail. The check runs in tens of milliseconds and rejects fabricated URLs and stale links before the user sees them.
+          - paragraph [ref=e228]: The cited passage exists on the page. Fetch the page body, extract the text, and verify the passage the agent quoted (or paraphrased) is actually present. A paraphrase that drifts beyond an embedding-similarity threshold is a fail. This catches the case where the URL resolves to a real page but the agent invented the quote.
+          - paragraph [ref=e229]:
+            - text: The claim is supported by the cited passage. This is where
+            - code [ref=e230]: ChunkAttribution
+            - text: and
+            - code [ref=e231]: Groundedness
+            - text: apply, but at the per-claim level — not the per-answer level. A brief can be 0.94 grounded as a whole and 0.61 aligned at the per-claim level; users only see the per-claim view.
+          - paragraph [ref=e232]:
+            - text: Wire it as a two-stage rail. The deterministic stage (URL resolves, passage present) is a hard gate at the gateway. The judge stage (claim-passage entailment) runs as an
+            - code [ref=e233]: EvalTag
+            - text: on the synthesis span. Failures from either route a rejection back to the synthesizer with the failed citation flagged.
+          - generic [ref=e234]:
+            - text: Python
+            - code [ref=e235]:
+              - generic [ref=e236]: import httpx
+              - generic [ref=e237]: from fi.evals import Evaluator
+              - generic [ref=e238]: from fi.evals.templates import ChunkAttribution, ContainsValidLink
+              - generic [ref=e239]: from fi.testcases import TestCase
+              - generic [ref=e240]: "def url_resolves(url: str) -> bool:"
+              - generic [ref=e241]: "try:"
+              - generic [ref=e242]: r = httpx.head(url, follow_redirects=True, timeout=5.0)
+              - generic [ref=e243]: return r.status_code < 400 and urlparse(str(r.url)).netloc == urlparse(url).netloc
+              - generic [ref=e244]: "except httpx.HTTPError:"
+              - generic [ref=e245]: return False
+              - generic [ref=e246]: "def passage_present(citation, fetched_pages: dict) -> bool:"
+              - generic [ref=e247]: body = fetched_pages.get(citation.url, "")
+              - generic [ref=e248]: "return citation.quoted_passage.strip() in body # plus paraphrase-tolerant pass"
+              - generic [ref=e249]: "# claim-passage entailment on the surviving citations"
+              - generic [ref=e250]: cases = [
+              - generic [ref=e251]: TestCase(
+              - generic [ref=e252]: input=citation.claim_text,
+              - generic [ref=e253]: output=citation.claim_text,
+              - generic [ref=e254]: context=citation.cited_passage,
+              - generic [ref=e255]: )
+              - generic [ref=e256]: for citation in answer.citations
+              - generic [ref=e257]: if url_resolves(citation.url) and passage_present(citation, fetched_pages)
+              - generic [ref=e258]: "]"
+              - generic [ref=e259]: result = Evaluator(fi_api_key=API_KEY, fi_secret_key=SECRET_KEY).evaluate(
+              - generic [ref=e260]: eval_templates=[ContainsValidLink(), ChunkAttribution()],
+              - generic [ref=e261]: inputs=cases,
+              - generic [ref=e262]: )
+            - button "Copy code" [ref=e263] [cursor=pointer]:
+              - img [ref=e264]
+              - generic [ref=e266]: Copy
+          - paragraph [ref=e267]: A citation that survives all three checks is a real citation. A citation that fails any of the three is a hard reject — log it, regenerate the answer with the failing URL excluded from the context, and re-run the gate. Citation validity is the single highest-signal cheap check in this category; teams that wire it stop seeing the “user clicked a 404” failure mode almost immediately.
+          - heading "Caching the snapshot so CI does not flake" [level=2] [ref=e268]
+          - paragraph [ref=e269]: Two runs against the same prompt twelve hours apart can return different URLs. Without a per-test-case cache, the CI gate flakes for reasons unrelated to the agent, and the team loses faith in the eval.
+          - paragraph [ref=e270]: Cache at three layers. The search call (provider, query, response headers, full result JSON). The page fetch (URL, response, body, fetch timestamp). The page-to-passage extraction (cleaned text, date metadata, anchor IDs). Replay every test from cache. Re-snapshot deliberately on a schedule that fits your domain — weekly for news agents, monthly for stable how-to agents — and treat each re-snapshot as a new golden-set version with its own baseline.
+          - paragraph [ref=e271]: This is the difference between an eval suite that runs and one that nobody trusts.
+          - complementary [ref=e272]:
+            - generic [ref=e273]:
+              - generic [ref=e274]: Newsletter
+              - generic [ref=e275]: ·
+              - generic [ref=e276]: Mission Control
+            - heading "One email a week. The engineering side of AI reliability." [level=3] [ref=e277]
+            - paragraph [ref=e278]: Real writeups on agent observability, eval, hallucinations, and the failure modes nobody else publishes. No promotions.
+            - generic [ref=e279]:
+              - textbox "you@email.com" [ref=e280]
+              - button "Subscribe" [ref=e281]
+            - paragraph [ref=e282]: No spam. Unsubscribe anytime.
+          - heading "Tracing the search-augmented agent" [level=2] [ref=e283]
+          - paragraph [ref=e284]: The eval scores attach to spans. The spans are how you debug a bad answer. Three span kinds carry the load.
+          - paragraph [ref=e285]:
+            - code [ref=e286]: RETRIEVER
+            - text: for the search call. One retriever span per search invocation. Attach
+            - code [ref=e287]: retrieval.source_type="web"
+            - text: ", per-source"
+            - code [ref=e288]: retrieval.source_url
+            - text: ","
+            - code [ref=e289]: retrieval.source_recency_days
+            - text: ","
+            - code [ref=e290]: retrieval.source_authority_score
+            - text: ", and the"
+            - code [ref=e291]: search.query
+            - text: the agent literally sent (the input for the query-quality judge).
+          - paragraph [ref=e292]:
+            - code [ref=e293]: TOOL
+            - text: for the HTTP call to Tavily, Brave, Bing, SerpAPI, Exa, or the Perplexity API. Splitting the wire call from the retriever span lets gateway-level latency and cost land on the right node.
+          - paragraph [ref=e294]:
+            - code [ref=e295]: LLM
+            - text: for the synthesis call. Standard LLM span, routed through the Agent Command Center gateway so
+            - code [ref=e296]: x-prism-cost
+            - text: ","
+            - code [ref=e297]: x-prism-latency-ms
+            - text: ","
+            - code [ref=e298]: x-prism-model-used
+            - text: ", and"
+            - code [ref=e299]: x-prism-fallback-used
+            - text: land on span attributes.
+          - generic [ref=e300]:
+            - text: Python
+            - code [ref=e301]:
+              - generic [ref=e302]: from fi_instrumentation import register
+              - generic [ref=e303]: from fi_instrumentation.fi_types import ProjectType
+              - generic [ref=e304]: trace_provider = register(
+              - generic [ref=e305]: project_type=ProjectType.OBSERVE,
+              - generic [ref=e306]: project_name="search-augmented-agent",
+              - generic [ref=e307]: )
+              - generic [ref=e308]: "# swap the instrumentor for whatever runtime drives the agent"
+              - generic [ref=e309]: from traceai_openai import OpenAIInstrumentor
+              - generic [ref=e310]: OpenAIInstrumentor().instrument(tracer_provider=trace_provider)
+            - button "Copy code" [ref=e311] [cursor=pointer]:
+              - img [ref=e312]
+              - generic [ref=e314]: Copy
+          - paragraph [ref=e315]:
+            - text: If the agent runs on LangChain, LlamaIndex, CrewAI, Autogen, or the OpenAI Agents SDK, swap the instrumentor.
+            - code [ref=e316]: traceAI
+            - text: ships 50+ AI surfaces across Python, TypeScript, Java (including Spring AI and LangChain4j), and C#. For the broader picture see the
+            - link "best AI agent observability tools" [ref=e317] [cursor=pointer]:
+              - /url: /blog/best-ai-agent-observability-tools-2026/
+            - text: writeup.
+          - heading "Where Future AGI fits" [level=2] [ref=e318]
+          - paragraph [ref=e319]: Future AGI ships the self-improving loop for search-augmented agents — generate the dataset, simulate the rewrite-search-synthesize trace, evaluate on the four axes plus the built-in templates, optimize the prompts against the eval, loop the failures back into the dataset. Other tools give you the parts. Only FAGI loops them into one product.
+          - paragraph [ref=e320]:
+            - link "ai-evaluation" [ref=e321] [cursor=pointer]:
+              - /url: https://github.com/future-agi/ai-evaluation
+            - text: (Apache 2.0) carries the rubrics. Built-in templates handle the standard RAG layer (
+            - code [ref=e322]: Groundedness
+            - text: ","
+            - code [ref=e323]: ChunkAttribution
+            - text: ","
+            - code [ref=e324]: ContextAdherence
+            - text: ","
+            - code [ref=e325]: FactualAccuracy
+            - text: ","
+            - code [ref=e326]: Completeness
+            - text: ","
+            - code [ref=e327]: AnswerRefusal
+            - text: ","
+            - code [ref=e328]: ContainsValidLink
+            - text: ).
+            - code [ref=e329]: CustomLLMJudge
+            - text: with
+            - code [ref=e330]: grading_criteria
+            - text: handles the four search-specific rubrics (
+            - code [ref=e331]: QueryRewriteQuality
+            - text: ","
+            - code [ref=e332]: FreshnessHandling
+            - text: ","
+            - code [ref=e333]: SourceDiversity
+            - text: ","
+            - code [ref=e334]: CitationValidity
+            - text: ). 20+ heuristic metrics handle the deterministic checks (URL resolves, unique-domain count, per-domain cap) at sub-second latency.
+          - paragraph [ref=e335]:
+            - link "traceAI" [ref=e336] [cursor=pointer]:
+              - /url: https://github.com/future-agi/traceAI
+            - text: (Apache 2.0) carries the same rubric as a span-attached score on live traffic. 14 span kinds including
+            - code [ref=e337]: RETRIEVER
+            - text: ","
+            - code [ref=e338]: TOOL
+            - text: ","
+            - code [ref=e339]: LLM
+            - text: ","
+            - code [ref=e340]: EVALUATOR
+            - text: ","
+            - code [ref=e341]: GUARDRAIL
+            - text: . Server-side
+            - code [ref=e342]: EvalTag
+            - text: wires the rubric to the span at zero added inference latency, so the same template runs in pytest and on the live span.
+          - paragraph [ref=e343]:
+            - text: Three scanners run inline on the retrieved-content boundary.
+            - code [ref=e344]: MaliciousURLScanner
+            - text: rejects phishing and typo-squat domains in the result set.
+            - code [ref=e345]: SecretsScanner
+            - text: blocks leaked API keys from pastebins and gists ending up in the cited brief.
+            - code [ref=e346]: InvisibleCharScanner
+            - text: flags zero-width and bidi characters that adversaries embed in pages to steer LLM interpretation. All three run in under ten milliseconds and slot in as
+            - code [ref=e347]: RailType.INPUT
+            - text: rails before the synthesis call reads the page.
+          - paragraph [ref=e348]:
+            - text: The
+            - link "Agent Command Center" [ref=e349] [cursor=pointer]:
+              - /url: /platform/monitor/command-center
+            - text: "is the operational gateway: 100+ providers as a single Go binary, OpenAI-compatible drop-in, 18+ built-in guardrail scanners plus 15 third-party adapters at the same network hop. Citation-validity rails and the malicious-URL scanner run here on the outbound brief; tag-scoped budgets cap runaway query rewriters before the dollar ceiling. SOC 2 Type II, HIPAA, GDPR, and CCPA certified."
+          - paragraph [ref=e350]:
+            - text: Failing runs land in the Error Feed. HDBSCAN soft-clustering groups failures over span embeddings; a Sonnet 4.5 Judge agent runs the investigation across span-tools, with a Haiku Chauffeur summarizing long spans at roughly 90% prompt-cache hit. Per cluster, the Judge writes an
+            - code [ref=e351]: immediate_fix
+            - text: "naming the axis that broke and the change to ship. Typical clusters in this category: “rewriter dropped year qualifier on regulation queries,” “all citations from same domain on healthcare AI questions,” “freshness ignored on stock-price queries,” “cited URL resolves to a redirect domain.” Promoted clusters land in the next golden-set version."
+          - paragraph [ref=e352]:
+            - text: The four-axis rubric is the input. A clustered failure with a named axis and an
+            - code [ref=e353]: immediate_fix
+            - text: is the output. That is the loop.
+          - paragraph [ref=e354]:
+            - strong [ref=e355]: Ready to evaluate your own search-augmented agent?
+            - text: Start with the
+            - link "ai-evaluation quickstart" [ref=e356] [cursor=pointer]:
+              - /url: https://github.com/future-agi/ai-evaluation
+            - text: ": wire the four-axis rubric against a 50-query stratified set and check the per-axis scores before you trust any aggregate. Then attach the same rubrics as"
+            - code [ref=e357]: EvalTag
+            - text: spans on live traffic via
+            - link "traceAI" [ref=e358] [cursor=pointer]:
+              - /url: https://github.com/future-agi/traceAI
+            - text: . The vector is the dashboard. The axis that drops is the bug.
+          - heading "Related reading" [level=2] [ref=e359]
+          - list [ref=e360]:
+            - listitem [ref=e361]:
+              - link "Evaluating Deep Research Agents in 2026" [ref=e362] [cursor=pointer]:
+                - /url: /blog/evaluating-deep-research-agents-2026/
+            - listitem [ref=e363]:
+              - 'link "AI Research Assistant Monitoring: A 2026 Playbook" [ref=e364] [cursor=pointer]':
+                - /url: /blog/ai-research-assistant-monitoring-2026/
+            - listitem [ref=e365]:
+              - link "Agentic RAG Systems" [ref=e366] [cursor=pointer]:
+                - /url: /blog/agentic-rag-systems-2025/
+            - listitem [ref=e367]:
+              - link "Agent Observability vs Evaluation vs Benchmarking (2026)" [ref=e368] [cursor=pointer]:
+                - /url: /blog/agent-observability-vs-evaluation-vs-benchmarking-2026/
+            - listitem [ref=e369]:
+              - link "RAG Hallucinations" [ref=e370] [cursor=pointer]:
+                - /url: /blog/rag-hallucinations-future-agi-2025/
+            - listitem [ref=e371]:
+              - link "LLM Evaluation Playbook (2026)" [ref=e372] [cursor=pointer]:
+                - /url: /blog/llm-evaluation-playbook-2026/
+        - generic [ref=e373]:
+          - heading "Frequently asked questions" [level=2] [ref=e374]
+          - generic [ref=e375]:
+            - group [ref=e376]:
+              - generic "Why does generic RAG eval fail on search-augmented agents?" [ref=e377] [cursor=pointer]:
+                - generic [ref=e378]: Why does generic RAG eval fail on search-augmented agents?
+                - img [ref=e379]
+              - generic [ref=e381]: RAG eval was built for a frozen vector store with stable ground truth. Search-augmented agents have neither. The corpus is the live web. Sources change between the test run and the next one. The agent issues a query string that the search engine literally reads, so query quality is an upstream lever RAG eval has no metric for. Freshness is a first-class signal, not a footnote. Sources span government docs to LinkedIn hot takes in a single result set, so source diversity has to be measured. And citations matter because users click through, so a fabricated URL or one that returns 404 is a hard failure that Groundedness alone never catches. Score those four axes — query quality, source freshness, source diversity, citation validity — or you will ship an agent that confidently cites stale or non-existent URLs.
+            - group [ref=e382]:
+              - generic "What are the four eval axes that matter for a search-augmented agent?" [ref=e383] [cursor=pointer]:
+                - generic [ref=e384]: What are the four eval axes that matter for a search-augmented agent?
+                - img [ref=e385]
+            - group [ref=e387]:
+              - generic "How do I make a search-agent eval reproducible when the web changes hourly?" [ref=e388] [cursor=pointer]:
+                - generic [ref=e389]: How do I make a search-agent eval reproducible when the web changes hourly?
+                - img [ref=e390]
+            - group [ref=e392]:
+              - generic "How is citation validity different from Groundedness?" [ref=e393] [cursor=pointer]:
+                - generic [ref=e394]: How is citation validity different from Groundedness?
+                - img [ref=e395]
+            - group [ref=e397]:
+              - generic "Which FAGI eval templates and custom rubrics cover the four axes?" [ref=e398] [cursor=pointer]:
+                - generic [ref=e399]: Which FAGI eval templates and custom rubrics cover the four axes?
+                - img [ref=e400]
+            - group [ref=e402]:
+              - generic "Where does FAGI fit in a search-agent eval stack?" [ref=e403] [cursor=pointer]:
+                - generic [ref=e404]: Where does FAGI fit in a search-agent eval stack?
+                - img [ref=e405]
+      - generic [ref=e408]:
+        - generic [ref=e409]:
+          - generic [ref=e410]: Related Articles
+          - link "View all" [ref=e411] [cursor=pointer]:
+            - /url: /blog/
+            - text: View all
+            - img [ref=e412]
+        - generic [ref=e414]:
+          - article [ref=e415]:
+            - link "Evaluating AWS Bedrock Agents in 2026 Guides" [ref=e416] [cursor=pointer]:
+              - /url: /blog/evaluating-aws-bedrock-agents-2026/
+              - img "Evaluating AWS Bedrock Agents in 2026"
+              - generic [ref=e419]: Guides
+            - generic [ref=e420]:
+              - link "Evaluating AWS Bedrock Agents in 2026" [ref=e422] [cursor=pointer]:
+                - /url: /blog/evaluating-aws-bedrock-agents-2026/
+              - paragraph [ref=e423]: Bedrock's built-in eval is dev-loop only. Score action-group correctness, KB retrieval quality, and guardrail precision/recall on every release.
+              - generic [ref=e424]:
+                - generic [ref=e425]:
+                  - img "Rishav Hada" [ref=e426]
+                  - generic [ref=e427]:
+                    - text: Rishav Hada ·
+                    - time [ref=e428]: May 19, 2026
+                - generic [ref=e429]:
+                  - img [ref=e430]
+                  - text: 11 min
+          - article [ref=e432]:
+            - 'link "LLM Eval Golden Set Design: A 2026 Engineering Guide Guides" [ref=e433] [cursor=pointer]':
+              - /url: /blog/llm-eval-golden-set-design-2026/
+              - 'img "LLM Eval Golden Set Design: A 2026 Engineering Guide"'
+              - generic [ref=e436]: Guides
+            - generic [ref=e437]:
+              - 'link "LLM Eval Golden Set Design: A 2026 Engineering Guide" [ref=e439] [cursor=pointer]':
+                - /url: /blog/llm-eval-golden-set-design-2026/
+              - paragraph [ref=e440]: Build a four-bucket golden set (production sample, adversarial, edge cases, failure replays) so a CI eval gate actually proves something about production.
+              - generic [ref=e441]:
+                - generic [ref=e442]:
+                  - img "NVJK Kartik" [ref=e443]
+                  - generic [ref=e444]:
+                    - text: NVJK Kartik ·
+                    - time [ref=e445]: May 16, 2026
+                - generic [ref=e446]:
+                  - img [ref=e447]
+                  - text: 12 min
+          - article [ref=e449]:
+            - link "The 2026 LLM Evaluation Playbook Guides" [ref=e450] [cursor=pointer]:
+              - /url: /blog/llm-evaluation-playbook-2026/
+              - img "The 2026 LLM Evaluation Playbook"
+              - generic [ref=e453]: Guides
+            - generic [ref=e454]:
+              - link "The 2026 LLM Evaluation Playbook" [ref=e456] [cursor=pointer]:
+                - /url: /blog/llm-evaluation-playbook-2026/
+              - paragraph [ref=e457]: "The pillar playbook for LLM evaluation in 2026: dataset, metrics, judge, CI gate, production observation, closed loop from failing trace to regression."
+              - generic [ref=e458]:
+                - generic [ref=e459]:
+                  - img "Rishav Hada" [ref=e460]
+                  - generic [ref=e461]:
+                    - text: Rishav Hada ·
+                    - time [ref=e462]: Apr 12, 2026
+                - generic [ref=e463]:
+                  - img [ref=e464]
+                  - text: 10 min
+  - contentinfo [ref=e466]:
+    - generic [ref=e470]:
+      - img [ref=e472]
+      - generic [ref=e496]:
+        - generic [ref=e501]: Ready for Launch
+        - generic [ref=e502]:
+          - text: Your agent is
+          - text: ready for launch
+        - generic [ref=e503]:
+          - generic [ref=e504]:
+            - img [ref=e505]
+            - generic [ref=e507]: Prompts
+          - generic [ref=e508]:
+            - img [ref=e509]
+            - generic [ref=e511]: Simulate
+          - generic [ref=e512]:
+            - img [ref=e513]
+            - generic [ref=e515]: Evaluate
+          - generic [ref=e516]:
+            - img [ref=e517]
+            - generic [ref=e519]: Optimize
+          - generic [ref=e520]:
+            - img [ref=e521]
+            - generic [ref=e523]: Observe
+          - generic [ref=e524]:
+            - img [ref=e525]
+            - generic [ref=e527]: Guard
+        - paragraph [ref=e528]: Test, guard, and monitor complete. Ship with confidence.
+        - generic [ref=e529]:
+          - link "Deploy to Production" [ref=e530] [cursor=pointer]:
+            - /url: https://app.futureagi.com/auth/jwt/register
+            - img [ref=e531]
+            - text: Deploy to Production
+          - link "View Documentation" [ref=e533] [cursor=pointer]:
+            - /url: https://docs.futureagi.com
+    - generic [ref=e534]:
+      - generic [ref=e536]:
+        - generic [ref=e537]:
+          - generic [ref=e538]: Platform
+          - list [ref=e539]:
+            - listitem [ref=e540]:
+              - link "Simulate" [ref=e541] [cursor=pointer]:
+                - /url: /platform/simulate/
+            - listitem [ref=e542]:
+              - link "Evaluate" [ref=e543] [cursor=pointer]:
+                - /url: /platform/evaluate/
+            - listitem [ref=e544]:
+              - link "Guard New" [ref=e545] [cursor=pointer]:
+                - /url: /platform/guard/
+                - text: Guard
+                - generic [ref=e546]: New
+            - listitem [ref=e547]:
+              - link "Monitor" [ref=e548] [cursor=pointer]:
+                - /url: /platform/monitor/tracing/
+            - listitem [ref=e549]:
+              - link "Optimize" [ref=e550] [cursor=pointer]:
+                - /url: /platform/optimize/rl/
+            - listitem [ref=e551]:
+              - link "Agents" [ref=e552] [cursor=pointer]:
+                - /url: /platform/agents/ide/
+        - generic [ref=e553]:
+          - generic [ref=e554]: Solutions
+          - list [ref=e555]:
+            - listitem [ref=e556]:
+              - link "Enterprise" [ref=e557] [cursor=pointer]:
+                - /url: /enterprise/
+            - listitem [ref=e558]:
+              - link "Startups" [ref=e559] [cursor=pointer]:
+                - /url: /startups/
+            - listitem [ref=e560]:
+              - link "Non-Profit" [ref=e561] [cursor=pointer]:
+                - /url: /non-profit/
+            - listitem [ref=e562]:
+              - link "Pricing" [ref=e563] [cursor=pointer]:
+                - /url: /pricing/
+            - listitem [ref=e564]:
+              - link "Watch Demo" [ref=e565] [cursor=pointer]:
+                - /url: /watch-demo/
+            - listitem [ref=e566]:
+              - link "Talk to a Human" [ref=e567] [cursor=pointer]:
+                - /url: /talk-to-human/
+        - generic [ref=e568]:
+          - generic [ref=e569]: Resources
+          - list [ref=e570]:
+            - listitem [ref=e571]:
+              - link "Blog" [ref=e572] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e573]:
+              - link "Glossary" [ref=e574] [cursor=pointer]:
+                - /url: /glossary/
+            - listitem [ref=e575]:
+              - link "LLM Cost Calculator" [ref=e576] [cursor=pointer]:
+                - /url: /llm-cost-calculator/
+            - listitem [ref=e577]:
+              - link "Evaluation TCO Calculator" [ref=e578] [cursor=pointer]:
+                - /url: /eval-tco-calculator/
+            - listitem [ref=e579]:
+              - link "Customer Stories" [ref=e580] [cursor=pointer]:
+                - /url: /customers/
+            - listitem [ref=e581]:
+              - link "Research" [ref=e582] [cursor=pointer]:
+                - /url: /research/
+            - listitem [ref=e583]:
+              - link "eBooks" [ref=e584] [cursor=pointer]:
+                - /url: /ebooks/
+            - listitem [ref=e585]:
+              - link "Handbook" [ref=e586] [cursor=pointer]:
+                - /url: /handbook/
+            - listitem [ref=e587]:
+              - link "Changelog" [ref=e588] [cursor=pointer]:
+                - /url: /changelog/
+            - listitem [ref=e589]:
+              - link "Roadmap" [ref=e590] [cursor=pointer]:
+                - /url: /roadmap/
+        - generic [ref=e591]:
+          - generic [ref=e592]: Developers
+          - list [ref=e593]:
+            - listitem [ref=e594]:
+              - link "Documentation" [ref=e595] [cursor=pointer]:
+                - /url: https://docs.futureagi.com
+            - listitem [ref=e596]:
+              - link "Quick Start" [ref=e597] [cursor=pointer]:
+                - /url: https://docs.futureagi.com/docs/quickstart/setup-observability
+            - listitem [ref=e598]:
+              - link "API Reference" [ref=e599] [cursor=pointer]:
+                - /url: https://docs.futureagi.com/docs/api
+            - listitem [ref=e600]:
+              - link "SDKs" [ref=e601] [cursor=pointer]:
+                - /url: https://docs.futureagi.com/docs/sdk
+            - listitem [ref=e602]:
+              - link "Integrations" [ref=e603] [cursor=pointer]:
+                - /url: /integrations/
+            - listitem [ref=e604]:
+              - link "GitHub" [ref=e605] [cursor=pointer]:
+                - /url: https://github.com/future-agi
+            - listitem [ref=e606]:
+              - link "Status" [ref=e607] [cursor=pointer]:
+                - /url: https://status.futureagi.com
+        - generic [ref=e608]:
+          - generic [ref=e609]: Company
+          - list [ref=e610]:
+            - listitem [ref=e611]:
+              - link "Careers" [ref=e612] [cursor=pointer]:
+                - /url: /careers/
+            - listitem [ref=e613]:
+              - link "Contact" [ref=e614] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e615]:
+              - link "Security" [ref=e616] [cursor=pointer]:
+                - /url: /security/
+        - generic [ref=e617]:
+          - generic [ref=e618]: Connect
+          - generic [ref=e619]:
+            - link "LinkedIn" [ref=e620] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/futureagi/
+              - img [ref=e621]
+            - link "X" [ref=e623] [cursor=pointer]:
+              - /url: https://x.com/FutureAGI_
+              - img [ref=e624]
+            - link "Discord" [ref=e626] [cursor=pointer]:
+              - /url: https://discord.com/invite/n2tCUKBkAw
+              - img [ref=e627]
+            - link "GitHub" [ref=e629] [cursor=pointer]:
+              - /url: https://github.com/future-agi
+              - img [ref=e630]
+      - generic [ref=e633]:
+        - generic [ref=e634]:
+          - generic [ref=e635]:
+            - img [ref=e636]
+            - img "FutureAGI" [ref=e641]
+          - generic [ref=e651]: © 2026 Future AGI, Inc.
+        - generic [ref=e652]:
+          - link "Terms of use" [ref=e653] [cursor=pointer]:
+            - /url: /terms/
+          - link "Privacy policy" [ref=e654] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Security" [ref=e655] [cursor=pointer]:
+            - /url: /security/
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - paragraph: Get Mission Control
+          - paragraph: One email a week. The engineering side of AI reliability.
+        - button: Subscribe
+        - button:
+          - img
+  - generic [ref=e656] [cursor=pointer]: Explain "Evaluating Search-Augmented…"
+  - button "Ask AI" [ref=e657] [cursor=pointer]:
+    - img [ref=e658]

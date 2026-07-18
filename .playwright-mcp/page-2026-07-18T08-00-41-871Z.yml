@@ -1,0 +1,499 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - navigation "Primary" [ref=e5]:
+      - generic [ref=e6]:
+        - link "Esports.gg - Home" [ref=e8] [cursor=pointer]:
+          - /url: https://esports.gg/
+          - img [ref=e9]
+        - button "open search" [ref=e23]:
+          - img [ref=e24]
+      - generic [ref=e28]:
+        - navigation "Main" [ref=e29]:
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - link "MLBB" [ref=e32] [cursor=pointer]:
+                - /url: https://esports.gg/games/mobile-legends-bang-bang/
+            - listitem [ref=e33]:
+              - link "Overwatch 2" [ref=e34] [cursor=pointer]:
+                - /url: https://esports.gg/games/overwatch/
+            - listitem [ref=e35]:
+              - link "Fortnite" [ref=e36] [cursor=pointer]:
+                - /url: https://esports.gg/games/fortnite/
+            - listitem [ref=e37]:
+              - link "LoL" [ref=e38] [cursor=pointer]:
+                - /url: https://esports.gg/games/league-of-legends/
+            - listitem [ref=e39]:
+              - link "Valorant" [ref=e40] [cursor=pointer]:
+                - /url: https://esports.gg/games/valorant/
+            - listitem [ref=e41]:
+              - link "Pokémon" [ref=e42] [cursor=pointer]:
+                - /url: https://esports.gg/games/pokemon/
+            - listitem [ref=e43]:
+              - link "Cookie Run Kingdom" [ref=e44] [cursor=pointer]:
+                - /url: https://esports.gg/games/cookie-run-kingdom/
+        - button "Open menu" [ref=e45]:
+          - img [ref=e46]
+    - navigation "Secondary" [ref=e48]:
+      - generic [ref=e49]:
+        - link "Call of Duty" [ref=e51] [cursor=pointer]:
+          - /url: https://esports.gg/games/call-of-duty/
+          - generic [ref=e52]: Call of Duty
+        - navigation "Secondary" [ref=e54]:
+          - list [ref=e55]:
+            - listitem [ref=e56]:
+              - link "Call of Duty News" [ref=e57] [cursor=pointer]:
+                - /url: /news/call-of-duty/
+                - generic [ref=e58]: Call of Duty News
+            - listitem [ref=e59]:
+              - link "Call of Duty Guides" [ref=e60] [cursor=pointer]:
+                - /url: /guides/call-of-duty/
+                - generic [ref=e61]: Call of Duty Guides
+            - listitem [ref=e62]:
+              - link "MW3" [ref=e63] [cursor=pointer]:
+                - /url: /tag/modern-warfare-3/
+                - generic [ref=e64]: MW3
+            - listitem [ref=e65]:
+              - link "Black Ops 6" [ref=e66] [cursor=pointer]:
+                - /url: /tag/call-of-duty-black-ops-6/
+                - generic [ref=e67]: Black Ops 6
+            - listitem [ref=e68]:
+              - link "DMZ" [ref=e69] [cursor=pointer]:
+                - /url: /tag/cod-dmz/
+                - generic [ref=e70]: DMZ
+            - listitem [ref=e71]:
+              - link "Collegiate" [ref=e72] [cursor=pointer]:
+                - /url: /tag/cod-collegiate/
+                - generic [ref=e73]: Collegiate
+            - listitem [ref=e74]:
+              - link "CODM" [ref=e75] [cursor=pointer]:
+                - /url: /games/codm/
+                - generic [ref=e76]: CODM
+  - main [ref=e77]:
+    - article [ref=e78]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - 'heading "Black Ops 6 multiplayer maps: How big are they?" [level=1] [ref=e82]'
+          - generic "Article byline" [ref=e83]:
+            - generic [ref=e85]:
+              - generic [ref=e86]: Written by
+              - link "Joey Carr" [ref=e87] [cursor=pointer]:
+                - /url: https://esports.gg/author/joey/
+            - generic [ref=e89]:
+              - generic [ref=e90]: Published
+              - time [ref=e91]: Oct 1, 2024
+            - generic [ref=e93]:
+              - generic [ref=e94]: Read time
+              - generic [ref=e95]: 3 min
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - link "Call of Duty" [ref=e99] [cursor=pointer]:
+              - /url: https://esports.gg/games/call-of-duty/
+              - generic [ref=e100]: Call of Duty
+            - link "News" [ref=e101] [cursor=pointer]:
+              - /url: https://esports.gg/news/
+              - generic [ref=e102]: News
+            - link "#CALL OF DUTY BLACK OPS 6" [ref=e103] [cursor=pointer]:
+              - /url: https://esports.gg/tag/call-of-duty-black-ops-6/
+          - generic [ref=e104]:
+            - 'img "Black Ops 6 multiplayer maps: How big are they?" [ref=e105]'
+            - img [ref=e107]
+        - generic [ref=e109]:
+          - button "Copy link" [ref=e110]:
+            - img [ref=e112]
+          - link "Share on X" [ref=e114] [cursor=pointer]:
+            - /url: https://twitter.com/intent/tweet?text=Black%20Ops%206%20multiplayer%20maps%3A%20How%20big%20are%20they%3F%3A%20https%3A%2F%2Fesports.gg%2Fnews%2Fcall-of-duty%2Fblack-ops-6-multiplayer-maps-how-big-are-they%2F%20via%20%40esports
+            - img [ref=e116]
+          - link "Share on Reddit" [ref=e118] [cursor=pointer]:
+            - /url: https://www.reddit.com/submit?url=https%3A%2F%2Fesports.gg%2Fnews%2Fcall-of-duty%2Fblack-ops-6-multiplayer-maps-how-big-are-they%2F&title=Black%20Ops%206%20multiplayer%20maps%3A%20How%20big%20are%20they%3F
+            - img [ref=e120]
+          - link "Share on LinkedIn" [ref=e123] [cursor=pointer]:
+            - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fesports.gg%2Fnews%2Fcall-of-duty%2Fblack-ops-6-multiplayer-maps-how-big-are-they%2F
+            - img [ref=e125]
+          - link "Share on Facebook" [ref=e127] [cursor=pointer]:
+            - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fesports.gg%2Fnews%2Fcall-of-duty%2Fblack-ops-6-multiplayer-maps-how-big-are-they%2F
+            - img [ref=e129]
+      - generic [ref=e131]:
+        - generic [ref=e133]:
+          - paragraph [ref=e135]: There's been plenty of discussion surrounding the size of the maps in Black Ops 6, but are they really smaller than we think?
+          - paragraph [ref=e136]:
+            - text: "Since the release of the Call of Duty: Black Ops 6 (BO6) multiplayer beta, there’s been some discourse surrounding the"
+            - link "launch maps" [ref=e137] [cursor=pointer]:
+              - /url: https://esports.gg/news/call-of-duty/how-many-multiplayer-maps-in-black-ops-6/
+            - text: . Treyarch has stated numerous times there’s been a clear intention to design smaller to medium-sized maps for multiplayer, which was overly apparent in the beta.
+          - paragraph [ref=e138]: Every single map in the BO6 beta was fairly small, with the largest map being Rewind. Rewind would be considered a smaller map in most other Call of Duty titles. While the maps in BO6 are certainly on the smaller side, just how small are they compared to classic maps like Nuketown and Raid? One YouTuber dissected every multiplayer map, including the ones we haven’t seen yet, to give us a clear picture of where things stand.
+          - heading "Sizes of all Black Ops 6 multiplayer maps" [level=2] [ref=e139]
+          - paragraph [ref=e140]:
+            - text: Call of Duty YouTuber XclusiveAce decided to give their audience an overview of how every launch map in BO6 compares to Nuketown, one of the smallest Treyarch maps.
+            - link "XclusiveAce made this video" [ref=e141] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=PaVLx6GBIsg
+            - text: to debunk some rumors and false information that are being spread by other YouTubers who used incorrect data to determine the sizes of BO6’s maps.
+          - paragraph [ref=e142]: According to these other YouTubers, the maps in BO6 are just barely bigger, and sometimes even considerably smaller, than Nuketown. While it’s true some core 6v6 maps are smaller than Nuketown, a majority of the maps are 2-3x times larger than Nuketown, which is what XclusiveAce calculated in their video.
+          - figure [ref=e143]:
+            - iframe [ref=e145]:
+              
+          - paragraph [ref=e146]: XclusiveAce measured how wide both Nuketown and Raid are by using their Black Ops Cold War versions. He then used those measurements and compared to them the beta maps in BO6 and the other launch maps we haven’t seen much gameplay of yet. However, we do have the map overview for those other maps, which gives us a rough idea of how large they are.
+          - paragraph [ref=e147]: "According to XclusiveAce, who mentioned some of the map sizes could be off to a varying degree, here is how every BO6 map stacks up to Nuketown — and Raid in one case:"
+          - list [ref=e148]:
+            - listitem [ref=e149]: "Rewind: 3.43x larger than Nuketown"
+            - listitem [ref=e150]: "Protocol: 2.89x larger than Nuketown"
+            - listitem [ref=e151]: "Scud: 2.31x larger than Nuketown"
+            - listitem [ref=e152]: "Derelict: 1.55x larger than Nuketown"
+            - listitem [ref=e153]: "Skyline: 1.64x larger than Nuketown"
+            - listitem [ref=e154]: "Babylon: 22% smaller than Nuketown"
+            - listitem [ref=e155]: "Vault: Roughly 3.38x larger than Nuketown"
+            - listitem [ref=e156]: "Lowtown: Roughly 2.09x larger than Nuketown"
+            - listitem [ref=e157]: "Vorkuta: Roughly 3.48x larger than Nuketown and roughly 1.21x larger than Raid"
+            - listitem [ref=e158]: "Red Card: Roughly 3.48x larger than Nuketown"
+            - listitem [ref=e159]: "Subsonic: Roughly 1.13x larger than Nuketown"
+            - listitem [ref=e160]: "Payback: Roughly 39% smaller than Nuketown (could be wrong)"
+          - paragraph [ref=e161]: If you’re wondering why only 12 out of the 16 launch maps are listed, the four remaining maps in BO6 are Strike maps. While these can be played in 6v6, they’re primarily meant for 2v2 gameplay, so they’re designed to be as small or smaller than Nuketown.
+          - paragraph [ref=e162]: Out of the 12 remaining 6v6 maps, only two are smaller than Nuketown. Some are close to the same size, like Subsonic and Skyline, but a majority are noticeably larger. These measurements also don’t account for any verticality on maps, which increases the total playing area by a wide margin in some cases. Treyarch has indeed designed much smaller maps than we’re used to in BO6, but these measurements prove that there are still medium-sized maps available in multiplayer.
+          - paragraph [ref=e163]:
+            - text: If you’re a Zombies fan, then make sure to check out our overview of the
+            - link "Terminus" [ref=e164] [cursor=pointer]:
+              - /url: https://esports.gg/news/call-of-duty/black-ops-6-the-zombie-map-terminus-explained/
+            - text: and
+            - link "Liberty Falls" [ref=e165] [cursor=pointer]:
+              - /url: https://esports.gg/news/call-of-duty/cod-black-ops-6-zombies-liberty-falls-details/
+            - text: maps. For all other BO6 content, keep up with our
+            - link "Call of Duty section" [ref=e166] [cursor=pointer]:
+              - /url: https://esports.gg/games/call-of-duty/
+            - text: as we draw closer to launch on Oct. 25.
+          - generic [ref=e167]:
+            - img [ref=e169]
+            - paragraph [ref=e171]: Written by
+            - generic [ref=e172]:
+              - img "Joey Carr" [ref=e173]
+              - generic [ref=e174]:
+                - link "Joey Carr" [ref=e175] [cursor=pointer]:
+                  - /url: https://esports.gg/author/joey/
+                - paragraph [ref=e176]: Senior Editor
+            - paragraph [ref=e177]:
+              - text: Joey Carr has over seven years of experience in the video game industry as a writer, editor, and content manager covering a wide range of genres and titles. Specifically, Joey covers Call of Duty, other multiplayer…
+              - link "Full bio" [ref=e178] [cursor=pointer]:
+                - /url: https://esports.gg/author/joey/
+            - link "X / Twitter @JoeyCarr_" [ref=e180] [cursor=pointer]:
+              - /url: https://twitter.com/JoeyCarr_
+              - img [ref=e181]
+        - complementary [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e188]:
+              - heading "Trending articles" [level=2] [ref=e189]
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - link "thumbnail" [ref=e192] [cursor=pointer]:
+                    - /url: https://esports.gg/news/press-releases/sun-gaming-and-hospitality-sourcing-exchange/
+                    - generic [ref=e193]:
+                      - img "thumbnail" [ref=e194]
+                      - img [ref=e196]
+                  - generic [ref=e198]:
+                    - link "Sun Gaming and Hospitality and The Sourcing Exchange Announce Strategic Partnership" [ref=e199] [cursor=pointer]:
+                      - /url: https://esports.gg/news/press-releases/sun-gaming-and-hospitality-sourcing-exchange/
+                    - generic [ref=e200]:
+                      - link "Press Releases icon" [ref=e201] [cursor=pointer]:
+                        - /url: https://esports.gg/games/press-releases/
+                        - img "Press Releases icon" [ref=e202]
+                      - link "Press Releases" [ref=e203] [cursor=pointer]:
+                        - /url: https://esports.gg/games/press-releases/
+                - generic [ref=e204]:
+                  - link "thumbnail" [ref=e205] [cursor=pointer]:
+                    - /url: https://esports.gg/news/fgc/fatal-fury-city-of-the-wolves-reveal-rick-strowd-as-season-pass-3-dlc/
+                    - generic [ref=e206]:
+                      - img "thumbnail" [ref=e207]
+                      - img [ref=e209]
+                  - generic [ref=e211]:
+                    - 'link "FATAL FURY: City of the Wolves reveal Rick Strowd as Season Pass 3 DLC" [ref=e212] [cursor=pointer]':
+                      - /url: https://esports.gg/news/fgc/fatal-fury-city-of-the-wolves-reveal-rick-strowd-as-season-pass-3-dlc/
+                    - generic [ref=e213]:
+                      - link "FGC icon" [ref=e214] [cursor=pointer]:
+                        - /url: https://esports.gg/games/fgc/
+                        - img "FGC icon" [ref=e215]
+                      - link "FGC" [ref=e216] [cursor=pointer]:
+                        - /url: https://esports.gg/games/fgc/
+                - generic [ref=e217]:
+                  - link "thumbnail" [ref=e218] [cursor=pointer]:
+                    - /url: https://esports.gg/news/fgc/fatal-fury-city-of-the-wolves-release-date-features-and-more/
+                    - generic [ref=e219]:
+                      - img "thumbnail" [ref=e220]
+                      - img [ref=e222]
+                  - generic [ref=e224]:
+                    - 'link "FATAL FURY: City of the Wolves Characters: Full Roster & DLC List (July 2026)" [ref=e225] [cursor=pointer]':
+                      - /url: https://esports.gg/news/fgc/fatal-fury-city-of-the-wolves-release-date-features-and-more/
+                    - generic [ref=e226]:
+                      - link "FGC icon" [ref=e227] [cursor=pointer]:
+                        - /url: https://esports.gg/games/fgc/
+                        - img "FGC icon" [ref=e228]
+                      - link "FGC" [ref=e229] [cursor=pointer]:
+                        - /url: https://esports.gg/games/fgc/
+                - generic [ref=e230]:
+                  - link "thumbnail" [ref=e231] [cursor=pointer]:
+                    - /url: https://esports.gg/news/mobile-legends-bang-bang/msc-2026-ewc-schedule-results-livestream/
+                    - generic [ref=e232]:
+                      - img "thumbnail" [ref=e233]
+                      - img [ref=e235]
+                  - generic [ref=e237]:
+                    - 'link "MSC 2026 Esports World Cup: Format, schedule, results, and more" [ref=e238] [cursor=pointer]':
+                      - /url: https://esports.gg/news/mobile-legends-bang-bang/msc-2026-ewc-schedule-results-livestream/
+                    - generic [ref=e239]:
+                      - 'link "Mobile Legends: Bang Bang icon" [ref=e240] [cursor=pointer]':
+                        - /url: https://esports.gg/games/mobile-legends-bang-bang/
+                        - 'img "Mobile Legends: Bang Bang icon" [ref=e241]'
+                      - 'link "Mobile Legends: Bang Bang" [ref=e242] [cursor=pointer]':
+                        - /url: https://esports.gg/games/mobile-legends-bang-bang/
+            - generic [ref=e246]:
+              - heading "Related posts" [level=2] [ref=e247]
+              - generic [ref=e248]:
+                - generic [ref=e249]:
+                  - link "thumbnail" [ref=e250] [cursor=pointer]:
+                    - /url: https://esports.gg/guides/call-of-duty/when-does-the-modern-warfare-4-beta-start-release-date-explained/
+                    - generic [ref=e251]:
+                      - img "thumbnail" [ref=e252]
+                      - img [ref=e254]
+                  - generic [ref=e256]:
+                    - link "When does the Modern Warfare 4 Beta start? Release date explained" [ref=e257] [cursor=pointer]:
+                      - /url: https://esports.gg/guides/call-of-duty/when-does-the-modern-warfare-4-beta-start-release-date-explained/
+                    - link "Call of Duty" [ref=e259] [cursor=pointer]:
+                      - /url: https://esports.gg/games/call-of-duty/
+                - generic [ref=e260]:
+                  - link "thumbnail" [ref=e261] [cursor=pointer]:
+                    - /url: https://esports.gg/guides/call-of-duty/all-cdl-champs-2026-twitch-drops-how-to-earn-them/
+                    - generic [ref=e262]:
+                      - img "thumbnail" [ref=e263]
+                      - img [ref=e265]
+                  - generic [ref=e267]:
+                    - link "All CDL Champs 2026 Twitch Drops & how to earn them" [ref=e268] [cursor=pointer]:
+                      - /url: https://esports.gg/guides/call-of-duty/all-cdl-champs-2026-twitch-drops-how-to-earn-them/
+                    - link "Call of Duty" [ref=e270] [cursor=pointer]:
+                      - /url: https://esports.gg/games/call-of-duty/
+                - generic [ref=e271]:
+                  - link "thumbnail" [ref=e272] [cursor=pointer]:
+                    - /url: https://esports.gg/guides/call-of-duty/how-to-get-a-modern-warfare-4-beta-code-by-watching-cdl-champs/
+                    - generic [ref=e273]:
+                      - img "thumbnail" [ref=e274]
+                      - img [ref=e276]
+                  - generic [ref=e278]:
+                    - link "How to get a Modern Warfare 4 Beta Code by watching CDL Champs" [ref=e279] [cursor=pointer]:
+                      - /url: https://esports.gg/guides/call-of-duty/how-to-get-a-modern-warfare-4-beta-code-by-watching-cdl-champs/
+                    - link "Call of Duty" [ref=e281] [cursor=pointer]:
+                      - /url: https://esports.gg/games/call-of-duty/
+                - generic [ref=e282]:
+                  - link "thumbnail" [ref=e283] [cursor=pointer]:
+                    - /url: https://esports.gg/opinion/call-of-duty/why-is-skill-based-matchmaking-so-controversial-in-call-of-duty/
+                    - generic [ref=e284]:
+                      - img "thumbnail" [ref=e285]
+                      - img [ref=e287]
+                  - generic [ref=e289]:
+                    - link "Why Is Skill-Based Matchmaking So Controversial in Call of Duty?" [ref=e290] [cursor=pointer]:
+                      - /url: https://esports.gg/opinion/call-of-duty/why-is-skill-based-matchmaking-so-controversial-in-call-of-duty/
+                    - link "Call of Duty" [ref=e292] [cursor=pointer]:
+                      - /url: https://esports.gg/games/call-of-duty/
+            - generic [ref=e296]:
+              - heading "Featured games" [level=2] [ref=e297]
+              - generic [ref=e298]:
+                - generic [ref=e299]:
+                  - link "thumbnail" [ref=e300] [cursor=pointer]:
+                    - /url: https://esports.gg/games/mobile-legends-bang-bang/
+                    - generic [ref=e301]:
+                      - img "thumbnail" [ref=e302]
+                      - img [ref=e304]
+                  - generic [ref=e306]:
+                    - 'link "Mobile Legends: Bang Bang" [ref=e307] [cursor=pointer]':
+                      - /url: https://esports.gg/games/mobile-legends-bang-bang/
+                    - generic [ref=e308]:
+                      - 'link "Mobile Legends: Bang Bang icon" [ref=e309] [cursor=pointer]':
+                        - /url: https://esports.gg/games/mobile-legends-bang-bang/
+                        - 'img "Mobile Legends: Bang Bang icon" [ref=e310]'
+                      - 'link "Mobile Legends: Bang Bang" [ref=e311] [cursor=pointer]':
+                        - /url: https://esports.gg/games/mobile-legends-bang-bang/
+                - generic [ref=e312]:
+                  - link "thumbnail" [ref=e313] [cursor=pointer]:
+                    - /url: https://esports.gg/games/overwatch/
+                    - generic [ref=e314]:
+                      - img "thumbnail" [ref=e315]
+                      - img [ref=e317]
+                  - generic [ref=e319]:
+                    - link "Overwatch" [ref=e320] [cursor=pointer]:
+                      - /url: https://esports.gg/games/overwatch/
+                    - generic [ref=e321]:
+                      - link "Overwatch icon" [ref=e322] [cursor=pointer]:
+                        - /url: https://esports.gg/games/overwatch/
+                        - img "Overwatch icon" [ref=e323]
+                      - link "Overwatch" [ref=e324] [cursor=pointer]:
+                        - /url: https://esports.gg/games/overwatch/
+                - generic [ref=e325]:
+                  - link "thumbnail" [ref=e326] [cursor=pointer]:
+                    - /url: https://esports.gg/games/fortnite/
+                    - generic [ref=e327]:
+                      - img "thumbnail" [ref=e328]
+                      - img [ref=e330]
+                  - generic [ref=e332]:
+                    - link "Fortnite" [ref=e333] [cursor=pointer]:
+                      - /url: https://esports.gg/games/fortnite/
+                    - generic [ref=e334]:
+                      - link "Fortnite icon" [ref=e335] [cursor=pointer]:
+                        - /url: https://esports.gg/games/fortnite/
+                        - img "Fortnite icon" [ref=e336]
+                      - link "Fortnite" [ref=e337] [cursor=pointer]:
+                        - /url: https://esports.gg/games/fortnite/
+  - contentinfo [ref=e338]:
+    - generic [ref=e339]:
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - link "Esports.gg - Home" [ref=e342] [cursor=pointer]:
+            - /url: https://esports.gg/
+            - img [ref=e343]
+          - paragraph [ref=e347]: Join esports fans worldwide at the premier news and analysis outlet for competitive gaming, streamer culture & top-tier esports including LoL, Dota 2, Valorant, CSGO, Smash, FGC, and everything in between.
+        - generic [ref=e349]:
+          - generic [ref=e350]:
+            - link "About" [ref=e351] [cursor=pointer]:
+              - /url: https://esports.gg/about-us/
+            - link "Contact Us" [ref=e352] [cursor=pointer]:
+              - /url: https://esports.gg/contact/
+            - link "Privacy Policy" [ref=e353] [cursor=pointer]:
+              - /url: https://esports.gg/privacy-policy/
+            - link "Staff" [ref=e354] [cursor=pointer]:
+              - /url: https://esports.gg/staff/
+            - link "Methodology" [ref=e355] [cursor=pointer]:
+              - /url: https://esports.gg/our-ranking-methodology/
+          - generic [ref=e356]:
+            - link "Follow us on Twitter/X" [ref=e357] [cursor=pointer]:
+              - /url: https://x.com/esports/
+              - img [ref=e358]
+            - link "Follow us on Instagram" [ref=e360] [cursor=pointer]:
+              - /url: https://www.instagram.com/esports/
+              - img [ref=e361]
+            - link "Subscribe on YouTube" [ref=e365] [cursor=pointer]:
+              - /url: https://www.youtube.com/@EsportsGG
+              - img [ref=e366]
+      - generic [ref=e370]:
+        - generic [ref=e371]:
+          - generic [ref=e372]:
+            - generic [ref=e373]: Categories
+            - list [ref=e374]:
+              - listitem [ref=e375]:
+                - link "News" [ref=e376] [cursor=pointer]:
+                  - /url: /news/
+              - listitem [ref=e377]:
+                - link "Guides" [ref=e378] [cursor=pointer]:
+                  - /url: /guides/
+              - listitem [ref=e379]:
+                - link "Videos" [ref=e380] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@EsportsGG
+              - listitem [ref=e381]:
+                - link "Betting" [ref=e382] [cursor=pointer]:
+                  - /url: /games/betting/
+          - generic [ref=e383]:
+            - heading "New Games" [level=2] [ref=e384]
+            - list [ref=e385]:
+              - listitem [ref=e386]:
+                - link "Crimson Desert New" [ref=e387] [cursor=pointer]:
+                  - /url: https://esports.gg/games/crimson-desert/
+                  - text: Crimson Desert
+                  - generic [ref=e388]: New
+              - listitem [ref=e389]:
+                - link "Hytale New" [ref=e390] [cursor=pointer]:
+                  - /url: https://esports.gg/games/hytale/
+                  - text: Hytale
+                  - generic [ref=e391]: New
+              - listitem [ref=e392]:
+                - link "Highguard New" [ref=e393] [cursor=pointer]:
+                  - /url: https://esports.gg/games/highguard/
+                  - text: Highguard
+                  - generic [ref=e394]: New
+              - listitem [ref=e395]:
+                - link "Madden 26 New" [ref=e396] [cursor=pointer]:
+                  - /url: https://esports.gg/games/madden-26/
+                  - text: Madden 26
+                  - generic [ref=e397]: New
+          - generic [ref=e398]:
+            - heading "Featured Games" [level=2] [ref=e399]
+            - list [ref=e400]:
+              - listitem [ref=e401]:
+                - 'link "Mobile Legends: Bang Bang" [ref=e402] [cursor=pointer]':
+                  - /url: https://esports.gg/games/mobile-legends-bang-bang/
+              - listitem [ref=e403]:
+                - link "Overwatch" [ref=e404] [cursor=pointer]:
+                  - /url: https://esports.gg/games/overwatch/
+              - listitem [ref=e405]:
+                - link "Fortnite" [ref=e406] [cursor=pointer]:
+                  - /url: https://esports.gg/games/fortnite/
+          - generic [ref=e407]:
+            - heading "Trending Games" [level=2] [ref=e408]
+            - list [ref=e409]:
+              - listitem [ref=e410]:
+                - link "DOTA 2" [ref=e411] [cursor=pointer]:
+                  - /url: https://esports.gg/games/dota-2/
+              - listitem [ref=e412]:
+                - link "Valorant" [ref=e413] [cursor=pointer]:
+                  - /url: https://esports.gg/games/valorant/
+              - listitem [ref=e414]:
+                - link "Fortnite" [ref=e415] [cursor=pointer]:
+                  - /url: https://esports.gg/games/fortnite/
+              - listitem [ref=e416]:
+                - link "League of Legends" [ref=e417] [cursor=pointer]:
+                  - /url: https://esports.gg/games/league-of-legends/
+              - listitem [ref=e418]:
+                - link "Gaming" [ref=e419] [cursor=pointer]:
+                  - /url: https://esports.gg/games/gaming/
+          - generic [ref=e420]:
+            - generic [ref=e421]: Betting
+            - list [ref=e422]:
+              - listitem [ref=e423]:
+                - link "Esports Betting Sites" [ref=e424] [cursor=pointer]:
+                  - /url: /guides/betting/esports-betting-sites/
+              - listitem [ref=e425]:
+                - link "Online Casinos" [ref=e426] [cursor=pointer]:
+                  - /url: /guides/betting/online-casinos/
+              - listitem [ref=e427]:
+                - link "Online Casinos in Europe" [ref=e428] [cursor=pointer]:
+                  - /url: /eu/guides/betting/online-casinos/
+              - listitem [ref=e429]:
+                - link "Online Casinos in Canada" [ref=e430] [cursor=pointer]:
+                  - /url: /ca/guides/betting/online-casinos/
+              - listitem [ref=e431]:
+                - link "Crypto Casinos in Canada" [ref=e432] [cursor=pointer]:
+                  - /url: /ca/guides/betting/crypto-casinos/
+        - generic [ref=e433]:
+          - heading "All Games" [level=2] [ref=e434]
+          - list [ref=e435]:
+            - listitem [ref=e436]:
+              - link "Betting" [ref=e437] [cursor=pointer]:
+                - /url: https://esports.gg/games/betting/
+            - listitem [ref=e438]:
+              - 'link "Mobile Legends: Bang Bang" [ref=e439] [cursor=pointer]':
+                - /url: https://esports.gg/games/mobile-legends-bang-bang/
+            - listitem [ref=e440]:
+              - link "Overwatch" [ref=e441] [cursor=pointer]:
+                - /url: https://esports.gg/games/overwatch/
+            - listitem [ref=e442]:
+              - link "Fortnite" [ref=e443] [cursor=pointer]:
+                - /url: https://esports.gg/games/fortnite/
+            - listitem [ref=e444]:
+              - link "League of Legends" [ref=e445] [cursor=pointer]:
+                - /url: https://esports.gg/games/league-of-legends/
+            - listitem [ref=e446]:
+              - link "Pokémon" [ref=e447] [cursor=pointer]:
+                - /url: https://esports.gg/games/pokemon/
+            - listitem [ref=e448]:
+              - 'link "Cookie Run: Kingdom" [ref=e449] [cursor=pointer]':
+                - /url: https://esports.gg/games/cookie-run-kingdom/
+            - listitem [ref=e450]:
+              - link "Valorant" [ref=e451] [cursor=pointer]:
+                - /url: https://esports.gg/games/valorant/
+            - listitem [ref=e452]:
+              - link "Call of Duty" [ref=e453] [cursor=pointer]:
+                - /url: https://esports.gg/games/call-of-duty/
+            - listitem [ref=e454]:
+              - link "Entertainment" [ref=e455] [cursor=pointer]:
+                - /url: https://esports.gg/games/entertainment/
+            - listitem [ref=e456]:
+              - link "Streamers" [ref=e457] [cursor=pointer]:
+                - /url: https://esports.gg/games/streamers/
+            - listitem [ref=e458]:
+              - link "Apex Legends" [ref=e459] [cursor=pointer]:
+                - /url: https://esports.gg/games/apex-legends/
+            - listitem [ref=e460]:
+              - link "Roblox" [ref=e461] [cursor=pointer]:
+                - /url: https://esports.gg/games/roblox/

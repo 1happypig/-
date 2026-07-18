@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784253111314-c8vtaq8sx",
+  "providerId": "claude",
+  "title": "Explain UE5 blockout shortcuts",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784253111314,
+  "updatedAt": 1784361480046,
+  "lastResponseAt": 1784361114760,
+  "sessionId": "c9c77654-3624-479c-be92-b372f8c069ef",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "c9c77654-3624-479c-be92-b372f8c069ef"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 670,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 52224,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 52894,
+    "percentage": 26
+  }
+}

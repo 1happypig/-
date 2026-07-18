@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "理论知识/搜打撤关卡设计实战方法论.md",
+                "file": "理论知识/关卡基础知识.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "搜打撤关卡设计实战方法论"
+              "title": "关卡基础知识"
             }
           },
           {
@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "理论知识/搜打撤关卡设计实战方法论.md",
+                "file": "理论知识/fps关卡尺寸设计要领.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "搜打撤关卡设计实战方法论"
+              "title": "fps关卡尺寸设计要领"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,13 +200,23 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "9eb0204e3f12440e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 505.5
+    "width": 616.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,20 +232,30 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6889a3ecbccdd233",
+  "active": "18783459eadf5678",
   "lastOpenFiles": [
-    "专业词汇注解/PvP.md",
+    "理论知识/fps关卡尺寸设计要领.md",
+    "理论知识/关卡基础知识.md",
+    "理论知识/心流.md",
     "理论知识/搜打撤关卡设计实战方法论.md",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.066df44bd119",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.4eec31ab8996",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.31f2c7d1533a",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.85f9f01ccfbc",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.39098b92d73b",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.bfcf40de46c3",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.75520b8c103d",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.869bb17ea123",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.ba491e78cc20",
-    "理论知识/搜打撤关卡设计实战方法论.md.tmp.25168.200b973d6102",
+    "理论知识/poi.md",
+    "agent信息整理工作流.md.tmp.44768.ce8c8411ffdb",
+    "futureagi-search-agents-eval.md",
+    "agent信息整理工作流plus版.md",
+    "agent信息整理工作流.md",
+    "搜打撤POI设计要点.md",
+    "搜打撤POI设计要点.md.tmp.44768.c5a866d0bc3f",
+    "agent信息整理工作流.md.tmp.44768.390363d10f1a",
+    "agent信息整理工作流.md.tmp.44768.8e5e60c9bc77",
+    "agent信息整理工作流.md.tmp.44768.78763498e7b7",
+    "引擎使用/ue5白膜搭建工作流.md.tmp.43780.6e4a8f7b9dc6",
+    "参考图",
+    "新建文件夹",
+    "引擎使用/ue5快捷键.md",
+    "引擎使用/ue5白膜搭建工作流.md",
+    "引擎使用",
+    "理论知识/搜打撤关卡设计实战方法论.md.tmp.14264.f1e287e5b9fe",
+    "专业词汇注解/PvP.md",
     "专业词汇注解/箱庭理论.md",
     "专业词汇注解/G-E-G-Q-S.md",
     "专业词汇注解/前景与庇护.md",
@@ -250,16 +269,6 @@
     "专业词汇注解/全队覆灭率.md",
     "专业词汇注解/分区留存率.md",
     "专业词汇注解/留存率.md",
-    "专业词汇注解/撤离率.md",
-    "专业词汇注解/热力图.md",
-    "专业词汇注解/3C.md",
-    "专业词汇注解/TPS.md",
-    "专业词汇注解/FPS.md",
-    "专业词汇注解/PvPvE.md",
-    "专业词汇注解/PvE.md",
-    "专业词汇注解/安全期.md",
-    "专业词汇注解/消费者.md",
-    "专业词汇注解/生产者.md",
-    "专业词汇注解/猛攻.md"
+    "专业词汇注解/撤离率.md"
   ]
 }

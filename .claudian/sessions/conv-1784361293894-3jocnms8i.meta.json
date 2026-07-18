@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784361293894-3jocnms8i",
+  "providerId": "claude",
+  "title": "Define agent learning info workflow",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784361293894,
+  "updatedAt": 1784365304624,
+  "lastResponseAt": 1784365304624,
+  "sessionId": "d4318720-4eca-4836-adb9-039c79a501bd",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "d4318720-4eca-4836-adb9-039c79a501bd"
+  },
+  "currentNote": "agent信息整理工作流.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 129,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 100224,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 100353,
+    "percentage": 50
+  }
+}

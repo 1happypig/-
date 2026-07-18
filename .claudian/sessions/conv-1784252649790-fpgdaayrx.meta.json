@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784252649790-fpgdaayrx",
+  "providerId": "claude",
+  "title": "整理关卡设计心流知识",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784252649790,
+  "updatedAt": 1784361140220,
+  "lastResponseAt": 1784253192342,
+  "sessionId": "967b07d1-1d3d-4af1-9e6f-0079e2fe58d4",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "967b07d1-1d3d-4af1-9e6f-0079e2fe58d4"
+  },
+  "currentNote": "理论知识/心流.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 891,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 62080,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 62971,
+    "percentage": 31
+  }
+}

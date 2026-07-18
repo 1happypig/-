@@ -1,25 +1,25 @@
 {
-  "id": "conv-1784220047632-zoousu31x",
+  "id": "conv-1784253054264-n842fcml3",
   "providerId": "claude",
   "title": "Fix document formatting issues",
   "titleGenerationStatus": "success",
-  "createdAt": 1784220047632,
-  "updatedAt": 1784252628591,
-  "lastResponseAt": 1784220424232,
-  "sessionId": "6b7963e7-bdd2-455f-acbf-8932fd0b1949",
+  "createdAt": 1784253054264,
+  "updatedAt": 1784362502374,
+  "lastResponseAt": 1784362502374,
+  "sessionId": "71b78978-cbe5-42b8-9e5f-abaad84439f5",
   "selectedModel": "haiku",
   "providerState": {
-    "providerSessionId": "6b7963e7-bdd2-455f-acbf-8932fd0b1949"
+    "providerSessionId": "71b78978-cbe5-42b8-9e5f-abaad84439f5"
   },
   "currentNote": "理论知识/搜打撤关卡设计实战方法论.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 3450,
+    "inputTokens": 906,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 79616,
+    "cacheReadInputTokens": 107008,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 83066,
-    "percentage": 42
+    "contextTokens": 107914,
+    "percentage": 54
   }
 }
