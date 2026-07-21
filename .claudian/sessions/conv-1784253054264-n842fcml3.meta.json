@@ -6,10 +6,12 @@
   "createdAt": 1784253054264,
   "updatedAt": 1784362502374,
   "lastResponseAt": 1784362502374,
-  "sessionId": "71b78978-cbe5-42b8-9e5f-abaad84439f5",
+  "sessionId": null,
   "selectedModel": "haiku",
   "providerState": {
-    "providerSessionId": "71b78978-cbe5-42b8-9e5f-abaad84439f5"
+    "previousProviderSessionIds": [
+      "71b78978-cbe5-42b8-9e5f-abaad84439f5"
+    ]
   },
   "currentNote": "理论知识/搜打撤关卡设计实战方法论.md",
   "usage": {

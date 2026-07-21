@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "理论知识/关卡基础知识.md",
+                "file": "理论知识/心流在搜打撤关卡设计中的应用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "关卡基础知识"
+              "title": "心流在搜打撤关卡设计中的应用"
             }
           },
           {
@@ -207,12 +207,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -228,21 +228,28 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "realclaudian:Open Claudian": false
+      "realclaudian:Open Claudian": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "18783459eadf5678",
+  "active": "453b3cf58c390d65",
   "lastOpenFiles": [
-    "理论知识/fps关卡尺寸设计要领.md",
-    "理论知识/关卡基础知识.md",
-    "理论知识/心流.md",
+    "理论知识/poi设计与分析.md",
+    "理论知识/fps关卡尺寸设计参考.md",
+    "理论知识/心流在搜打撤关卡设计中的应用.md",
     "理论知识/搜打撤关卡设计实战方法论.md",
-    "理论知识/poi.md",
-    "agent信息整理工作流.md.tmp.44768.ce8c8411ffdb",
-    "futureagi-search-agents-eval.md",
-    "agent信息整理工作流plus版.md",
+    "理论知识/搜打撤动线设计参考.md",
+    "理论知识/关卡基础知识.md",
+    "_模板_每日学习.md",
+    "_模板_地图拆解.md",
     "agent信息整理工作流.md",
+    "agent信息整理工作流plus版.md",
+    "futureagi-search-agents-eval.md",
+    "理论知识/fps关卡尺寸设计要领.md",
+    "理论知识/poi.md",
+    "引擎使用/ue5白膜搭建工作流.md",
+    "引擎使用/ue5快捷键.md",
+    "agent信息整理工作流.md.tmp.44768.ce8c8411ffdb",
     "搜打撤POI设计要点.md",
     "搜打撤POI设计要点.md.tmp.44768.c5a866d0bc3f",
     "agent信息整理工作流.md.tmp.44768.390363d10f1a",
@@ -251,8 +258,6 @@
     "引擎使用/ue5白膜搭建工作流.md.tmp.43780.6e4a8f7b9dc6",
     "参考图",
     "新建文件夹",
-    "引擎使用/ue5快捷键.md",
-    "引擎使用/ue5白膜搭建工作流.md",
     "引擎使用",
     "理论知识/搜打撤关卡设计实战方法论.md.tmp.14264.f1e287e5b9fe",
     "专业词汇注解/PvP.md",
@@ -264,11 +269,6 @@
     "专业词汇注解/模式语言.md",
     "专业词汇注解/城市意象五要素.md",
     "专业词汇注解/MDA框架.md",
-    "专业词汇注解/心流理论.md",
-    "专业词汇注解/跑测.md",
-    "专业词汇注解/全队覆灭率.md",
-    "专业词汇注解/分区留存率.md",
-    "专业词汇注解/留存率.md",
-    "专业词汇注解/撤离率.md"
+    "专业词汇注解/心流理论.md"
   ]
 }

@@ -4,22 +4,24 @@
   "title": "Define agent learning info workflow",
   "titleGenerationStatus": "success",
   "createdAt": 1784361293894,
-  "updatedAt": 1784365304624,
-  "lastResponseAt": 1784365304624,
-  "sessionId": "d4318720-4eca-4836-adb9-039c79a501bd",
+  "updatedAt": 1784565687441,
+  "lastResponseAt": 1784365554141,
+  "sessionId": null,
   "selectedModel": "haiku",
   "providerState": {
-    "providerSessionId": "d4318720-4eca-4836-adb9-039c79a501bd"
+    "previousProviderSessionIds": [
+      "d4318720-4eca-4836-adb9-039c79a501bd"
+    ]
   },
   "currentNote": "agent信息整理工作流.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 129,
+    "inputTokens": 2778,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 100224,
+    "cacheReadInputTokens": 109952,
     "contextWindow": 200000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 100353,
-    "percentage": 50
+    "contextTokens": 112730,
+    "percentage": 56
   }
 }

@@ -6,10 +6,12 @@
   "createdAt": 1784361543409,
   "updatedAt": 1784363615148,
   "lastResponseAt": 1784363615148,
-  "sessionId": "775706bd-b579-487e-854f-f534f403ac1b",
+  "sessionId": null,
   "selectedModel": "haiku",
   "providerState": {
-    "providerSessionId": "775706bd-b579-487e-854f-f534f403ac1b"
+    "previousProviderSessionIds": [
+      "775706bd-b579-487e-854f-f534f403ac1b"
+    ]
   },
   "currentNote": "理论知识/fps关卡尺寸设计要领.md",
   "usage": {

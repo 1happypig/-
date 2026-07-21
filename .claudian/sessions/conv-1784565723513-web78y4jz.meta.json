@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784565723513-web78y4jz",
+  "providerId": "claude",
+  "title": "Organize search-fight-retreat movement refs",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784565723513,
+  "updatedAt": 1784565872786,
+  "lastResponseAt": 1784565872786,
+  "sessionId": "f972e3f3-922f-441f-8109-9c3a9ec5f4a9",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "f972e3f3-922f-441f-8109-9c3a9ec5f4a9"
+  },
+  "currentNote": "理论知识/搜打撤动线设计参考.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 171,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 67840,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 68011,
+    "percentage": 34
+  }
+}
